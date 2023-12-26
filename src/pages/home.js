@@ -45,6 +45,7 @@ class Home extends Component{
 				this.setState({comments: personName+": 这个庄家好菜啊"})
 				break;
 			default:
+				this.setState({comments: null})
 				break;
 		}
 	  };
@@ -82,16 +83,20 @@ class Home extends Component{
 				<div className="avatar1">
 					<Stack direction="Column" spacing={8}>
 						<div id="linyi">
-							<Avatar alt="Linyi" src={LinyiAvatar} sx={{ width: 70, height: 70 }} onClick={() => {this.sayHello('Linyi');}}/> Linyi
+							<Avatar alt="Linyi" src={LinyiAvatar} sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Linyi');} } 
+							onMouseEnter={() => this.sayHello('Linyi')} onMouseLeave={() => this.sayHello()} /> Linyi
 						</div>
 						<div id="Jack">
-							<Avatar alt="Jack" src={JackAvatar} sx={{ width: 70, height: 70 }}  onClick={() => {this.sayHello('Jack');}}/> Jack
+							<Avatar alt="Jack" src={JackAvatar} sx={{ width: 80, height: 80 }}  onClick={() => {this.sayHello('Jack');}} 
+							onMouseEnter={() => this.sayHello('Jack')} onMouseLeave={() => this.sayHello()}/> Jack
 						</div>
 						<div id="Elaine">
-							<Avatar alt="Elaine" src={ElaineAvatar} sx={{ width: 70, height: 70 }} onClick={() => {this.sayHello('Elaine');}}/> Elaine
+							<Avatar alt="Elaine" src={ElaineAvatar} sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Elaine');}}
+							onMouseEnter={() => this.sayHello('Elaine')} onMouseLeave={() => this.sayHello()}/> Elaine
 						</div>	
 						<div id='JoeZ'>						
-							<Avatar alt="Joe Zhou" src={JoeZAvatar} sx={{ width: 70, height: 70 }} onClick={() => {this.sayHello('Joe Zhou');}}/> Joe Zhou					
+							<Avatar alt="Joe Zhou" src={JoeZAvatar} sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Joe Zhou');}}
+							onMouseEnter={() => this.sayHello('Joe Zhou')} onMouseLeave={() => this.sayHello()}/> Joe Zhou					
 						</div>					
 					</Stack>
 					
@@ -99,16 +104,19 @@ class Home extends Component{
 				<br/>
 
 				<div className="avatar2">
-					<Stack direction="Column" spacing={8}>	
+					<Stack direction="Column" spacing={8}>
 						<div>
-							<Avatar alt="TJin" src={TJinAvatar} sx={{ width: 70, height: 70 }} onClick={() => {this.sayHello('TJin');}}/> TJin
+							<Avatar alt="Chloe" src={ChloeAvatar} variant="square" sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Chloe');}}
+							onMouseEnter={() => this.sayHello('Chloe')} onMouseLeave={() => this.sayHello()}/> Chloe
+						</div>		
+						<div>
+							<Avatar alt="TJin" src={TJinAvatar} sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('TJin');}}
+							onMouseEnter={() => this.sayHello('TJin')} onMouseLeave={() => this.sayHello()}/> TJin
 						</div>
 						<div>
-							<Avatar alt="Joe Sun" src={JoeSAvatar} sx={{ width: 70, height: 70 }} onClick={() => {this.sayHello('Joe Sun');}}/> Joe Sun
-						</div>
-						<div>
-							<Avatar alt="Chloe" src={ChloeAvatar} sx={{ width: 70, height: 70 }} onClick={() => {this.sayHello('Chloe');}}/> Chloe
-						</div>				
+							<Avatar alt="Joe Sun" src={JoeSAvatar} sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Joe Sun');}}
+							onMouseEnter={() => this.sayHello('Joe Sun')} onMouseLeave={() => this.sayHello()}/> Joe Sun
+						</div>			
 					</Stack>
 				</div>
 
