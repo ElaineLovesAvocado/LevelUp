@@ -2,7 +2,7 @@
   "name": "levelup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elainelovesavocado.github.io",
+  "homepage": "https://elainelovesavocado.github.io/LevelUp/",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.11.3",
@@ -29,7 +29,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "clean": "gh-pages-clean"
   },
   "eslintConfig": {
     "extends": [
