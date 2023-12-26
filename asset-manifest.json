@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/LevelUp/static/css/main.e2e2a855.css",
-    "main.js": "/LevelUp/static/js/main.ea80d721.js",
+    "main.js": "/LevelUp/static/js/main.33f8664a.js",
     "static/js/787.6a4e74f5.chunk.js": "/LevelUp/static/js/787.6a4e74f5.chunk.js",
     "static/media/Elaine.png": "/LevelUp/static/media/Elaine.503d84aaabbed35035a9.png",
     "static/media/Chloe.png": "/LevelUp/static/media/Chloe.a9d033c08ad8b95afcd8.png",
-    "static/media/Jack.png": "/LevelUp/static/media/Jack.bcc160aafd18241d087c.png",
+    "static/media/TJin.png": "/LevelUp/static/media/TJin.bcc160aafd18241d087c.png",
     "static/media/JoeS.png": "/LevelUp/static/media/JoeS.f63672384ebfcdf34ab0.png",
     "static/media/Linyi.png": "/LevelUp/static/media/Linyi.6363610fcb785b4df141.png",
-    "static/media/TJin.png": "/LevelUp/static/media/TJin.129932b9270f8bcd4582.png",
+    "static/media/Jack.png": "/LevelUp/static/media/Jack.129932b9270f8bcd4582.png",
     "static/media/JoeZ.png": "/LevelUp/static/media/JoeZ.4c9ed55818bb8442b953.png",
     "index.html": "/LevelUp/index.html",
     "main.e2e2a855.css.map": "/LevelUp/static/css/main.e2e2a855.css.map",
-    "main.ea80d721.js.map": "/LevelUp/static/js/main.ea80d721.js.map",
+    "main.33f8664a.js.map": "/LevelUp/static/js/main.33f8664a.js.map",
     "787.6a4e74f5.chunk.js.map": "/LevelUp/static/js/787.6a4e74f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2e2a855.css",
-    "static/js/main.ea80d721.js"
+    "static/js/main.33f8664a.js"
   ]
 }
