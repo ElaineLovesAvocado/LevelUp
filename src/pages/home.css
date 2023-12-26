@@ -1,0 +1,41 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.welcomeMsg{
+    padding: 5px;
+    font-family: fantasy;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.personalMsg{
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+
+.avatar1 div:hover{
+    transform: scale(1.1);
+}
+
+.avatar2 div:hover{
+    transform: scale(1.1);
+}
+
