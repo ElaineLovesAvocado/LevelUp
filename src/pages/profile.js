@@ -220,7 +220,7 @@ EnhancedTableToolbar.propTypes = {
 };
 
 export default function Profile() {
-  const [order, setOrder] = React.useState('asc');
+  const [order, setOrder] = React.useState('desc');
   const [orderBy, setOrderBy] = React.useState('totalScore');
   const [selected, setSelected] = React.useState([]);
   const [page, setPage] = React.useState(0);
