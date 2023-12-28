@@ -34,6 +34,8 @@ const rows = [
     createData('2023-12-15',	'Q',	'J',	'2 (2nd Round)🌟',	'J',	'K',	'A',	'Q',			'Joe Sun',	'Elaine'),
     createData('2023-12-22',	'7',	'3 (2nd round)🌟',	'K',	'A',	'K',	'A',	'A',	'TJ',	'Joe Zhou, Elaine, Linyi'),
     createData('2023-12-22',	'10',	'J',	'3(2nd round) 🌟',	'Q',	'9',	'A',	'Q',	'Joe Sun',	'Elaine' ),
+    createData('2023-12-27', 'K',	'J',	'8', '3(2nd round)🌟',	'5',	'10',	'J','Joe Z','Jack'),
+    createData('2023-12-27', '9',	'10',	'A 🌟', '10',	'9',	'8',	'10', 'Joe S', 'TJ, Joe Z, Linyi')
   ];
 
 const Records = () => {
