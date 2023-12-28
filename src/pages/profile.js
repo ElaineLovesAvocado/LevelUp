@@ -22,7 +22,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
 
-function createData(id, name, totalScore, numFirst, numSecond, numSuper) {
+function createData(id, name, totalScore, numFirst, numSecond, numSuper, numSuper2) {
   return {
     id,
     name,
@@ -30,17 +30,18 @@ function createData(id, name, totalScore, numFirst, numSecond, numSuper) {
     numFirst,
     numSecond,
     numSuper,
+    numSuper2
   };
 }
 
 const rows = [
-  createData(1, 'Jack', 5, 0, 1, 0),
-  createData(2, 'Linyi', 10, 0, 2, 0),
-  createData(3, 'Joe Zhou', 20, 1, 2, 0),
-  createData(4, 'Elaine', 15, 0, 3, 0),
-  createData(5, 'Joe Sun', 45, 3, 3,  0),
-  createData(6, 'Chloe', 35, 2, 0, 1),
-  createData(7, 'TJin', 25, 2, 1, 0),
+  createData(1, 'Jack', 5, 0, 1, 0, 0),
+  createData(2, 'Linyi', 10, 0, 2, 0,0),
+  createData(3, 'Joe Zhou', 20, 1, 2, 0,0),
+  createData(4, 'Elaine', 15, 0, 3, 0, 0),
+  createData(5, 'Joe Sun', 45, 3, 3, 0, 0),
+  createData(6, 'Chloe', 35, 2, 0, 1, 0),
+  createData(7, 'TJin', 25, 2, 1, 0, 0),
 ];
 
 function descendingComparator(a, b, orderBy) {
@@ -106,6 +107,12 @@ const headCells = [
     disablePadding: false,
     label: '# 庄家大光',
   },
+  {
+    id: 'numSuper2',
+    numeric: true,
+    disablePadding: false,
+    label: '# 庄上大光',
+  }
 ];
 
 function EnhancedTableHead(props) {
@@ -194,11 +201,11 @@ function EnhancedTableToolbar(props) {
           id="tableTitle"
           component="div"
         >
-          分数计算:
-          1st Place: +10；
-          2nd Place: +5；
-          大光(庄家)： +15；
-          大光(庄上)：+10；
+          Rules:
+          1st place+10；
+          2nd place+5；
+          大光(庄家)+15；
+          大光(庄上)+10；
         </Typography>
       )}
 
@@ -348,6 +355,7 @@ export default function Profile() {
                     <TableCell align="right">{row.numFirst}</TableCell>
                     <TableCell align="right">{row.numSecond}</TableCell>
                     <TableCell align="right">{row.numSuper}</TableCell>
+                    <TableCell align="right">{row.numSuper2}</TableCell>
                   </TableRow>
                 );
               })}
