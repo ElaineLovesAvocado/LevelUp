@@ -12,7 +12,7 @@ const Navbar = () => {
 					<NavLink to="/records" activeStyle>
 						Records
 					</NavLink>
-					<NavLink to="/profile" activeStyle>
+					<NavLink to="/ranking" activeStyle>
 						Ranking
 					</NavLink>
 				</NavMenu>

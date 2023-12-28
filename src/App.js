@@ -8,7 +8,7 @@ import {
 	Route,
 } from "react-router-dom";
 import Home from "./pages/home";
-import Profile from "./pages/profile";
+import Ranking from "./pages/ranking";
 import Records from "./pages/records";
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
 					element={<Records />}
 				/>
 				<Route
-					path="/profile"
-					element={<Profile />}
+					path="/ranking"
+					element={<Ranking />}
 				/>
 			</Routes>
 		</Router>
