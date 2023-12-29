@@ -1,0 +1,29 @@
+.AvatarGroup{
+    display: flex;
+    justify-content: center;
+    flex: 0 1 auto;
+    padding: 5px;
+    animation: avatarAnimation;
+}
+
+
+@keyframes avatarAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+.questionIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.words{
+    display: flex;
+    justify-content: center;
+    font-family: Monospace;
+    font-size: 15px;
+}

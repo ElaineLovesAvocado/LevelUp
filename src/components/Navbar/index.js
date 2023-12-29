@@ -15,6 +15,9 @@ const Navbar = () => {
 					<NavLink to="/ranking" activeStyle>
 						Ranking
 					</NavLink>
+					<NavLink to="/seasonRanking" activeStyle>
+						Season
+					</NavLink>
 				</NavMenu>
 			</Nav>
 		</>

@@ -10,6 +10,7 @@ import {
 import Home from "./pages/home";
 import Ranking from "./pages/ranking";
 import Records from "./pages/records";
+import SeasonRanking from "./pages/seasonRanking";
 
 function App() {
 	return (
@@ -25,6 +26,10 @@ function App() {
 				<Route
 					path="/ranking"
 					element={<Ranking />}
+				/>
+				<Route
+					path="/seasonRanking"
+					element={<SeasonRanking />}
 				/>
 			</Routes>
 		</Router>
