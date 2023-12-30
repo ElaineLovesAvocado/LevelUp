@@ -12,8 +12,12 @@ import ChloeAvatar from '../images/Chloe.png'
 import JackAvatar from '../images/Jack.png'
 import LinyiAvatar from '../images/Linyi.png'
 import TJinAvatar from '../images/TJin.png'
+import golduckGif from '../images/golduck.gif'
+import sylveon from '../images/sylveon.gif'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
+import { TypeAnimation } from 'react-type-animation';
+
 import './seasonRanking.css'
 
 
@@ -79,13 +83,13 @@ export default function SeasonRanking() {
       </Box>
       <CustomTabPanel value={value} index={0}>
         <div className='AvatarGroup'>
-            <div>
+            <div id='JoeS'>
 							<Avatar alt="Joe Sun" src={JoeSAvatar} sx={{ width: 55, height: 55 }} /> 
 						</div>
-            <div>
+            <div id='Chole'>
 							<Avatar alt="Chloe" src={ChloeAvatar} sx={{ width: 55, height: 55 }} /> 
 						</div>		     	
-						<div>
+						<div id='TJin'>
 							<Avatar alt="TJin" src={TJinAvatar} sx={{ width: 55, height: 55 }} /> 
 						</div>
             <div id='JoeZ'>						
@@ -103,12 +107,31 @@ export default function SeasonRanking() {
 					</div>
           <div className='questionIcon'>
             <div><ArrowDownwardIcon sx={{ fontSize: 55 }} /></div>
-            <div><HelpOutlineOutlinedIcon sx={{ fontSize: 55 }}/></div>
+            {/* <div><HelpOutlineOutlinedIcon sx={{ fontSize: 55 }}/></div> */}
           </div>
           <div className="words">
-            <p>
-              Who will be evolved? Comming soon.....
-            </p>
+            {/* <p>
+              After one month of hard battles, Eevee and psyduck have both evolved!!!
+            </p> */}
+            <TypeAnimation
+                sequence={[
+                  'After one month of hard battles, Eevee and psyduck have both evolved!!!',
+                  () => {
+                  },
+                ]}
+                wrapper="span"
+                cursor={true}
+                repeat={0}
+                style={{ display: 'inline-block' }}
+				    />
+          </div>
+          <div className="evolution">
+            <div id='sylveon'>
+              <img src={sylveon} alt="Eevee has evolved!" loading="lazy" />
+            </div>
+            <div id='golduck'>
+              <img src={golduckGif} alt="Psyduck has evolved!" loading="lazy" />
+            </div>
           </div>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
