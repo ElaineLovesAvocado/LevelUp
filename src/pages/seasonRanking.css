@@ -3,7 +3,6 @@
     justify-content: center;
     flex: 0 1 auto;
     padding: 5px;
-    animation: avatarAnimation;
 }
 
 
@@ -36,3 +35,29 @@
     text-align: center;
 }
 
+.Podium img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%; 
+    margin-top: 150px; 
+    animation: zoom-in-zoom-out 4s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+    .Podium img{      
+        width: 250px; 
+    }
+  }

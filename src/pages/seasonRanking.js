@@ -14,7 +14,15 @@ import LinyiAvatar from '../images/Linyi.png'
 import TJinAvatar from '../images/TJin.png'
 import golduckGif from '../images/golduck.gif'
 import sylveon from '../images/sylveon.gif'
+import ElaineAvatar1 from '../images/Elaine.gif'
+import JoeZAvatar1 from '../images/JoeZ.gif'
+import JoeSAvatar1 from '../images/JoeS.gif'
+import ChloeAvatar1 from '../images/Chloe.gif'
+import JackAvatar1 from '../images/Jack.gif'
+import LinyiAvatar1 from '../images/Linyi.gif'
+import TJinAvatar1 from '../images/TJin.gif'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import Podium from '../images/podium.png';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import { TypeAnimation } from 'react-type-animation';
 
@@ -55,7 +63,7 @@ function a11yProps(index) {
 }
 
 export default function SeasonRanking() {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(1);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -135,7 +143,40 @@ export default function SeasonRanking() {
           </div>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Coming soon ...
+          <div className='AvatarGroup'>
+            <div id='JoeS'>
+							<Avatar alt="Joe Sun" variant="square" src={JoeSAvatar1} sx={{ width: 55, height: 55 }} /> 
+						</div>
+            <div id='Chole'>
+							<Avatar alt="Chloe" variant="square" src={ChloeAvatar1} sx={{ width: 55, height: 55 }} /> 
+						</div>		     	
+						<div id='TJin'>
+							<Avatar alt="TJin" variant="square" src={TJinAvatar1} sx={{ width: 55, height: 55 }} /> 
+						</div>
+            <div id='JoeZ'>						
+							<Avatar alt="Joe Zhou" variant="square" src={JoeZAvatar1} sx={{ width: 55, height: 55 }}/> 				
+						</div>
+            <div id="Elaine">
+							<Avatar alt="Elaine" variant="square" src={ElaineAvatar1} sx={{ width: 55, height: 55 }} /> 
+						</div>	
+            <div id="linyi">
+							<Avatar alt="Linyi" variant="square" src={LinyiAvatar1} sx={{ width: 55, height: 55 }} /> 
+						</div>
+						<div id="Jack">
+							<Avatar alt="Jack" variant="square" src={JackAvatar1} sx={{ width: 55, height: 55 }} /> 
+						</div>			
+					</div>
+          <div className='questionIcon'>
+            <div><ArrowDownwardIcon sx={{ fontSize: 55 }} /></div>
+            <div><HelpOutlineOutlinedIcon sx={{ fontSize: 55 }}/></div>
+          </div>
+
+          <div className="Podium">
+            <div id='Podium'>
+              <img src={Podium} alt="Podium" loading="lazy" />
+            </div>
+          </div>
+          
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         Coming soon ...

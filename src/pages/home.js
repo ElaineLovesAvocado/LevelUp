@@ -1,13 +1,13 @@
 import React, { Component} from "react";
 import Stack from '@mui/material/Stack';
 import Avatar from '@mui/material/Avatar';
-import ElaineAvatar from '../images/Elaine.png'
-import JoeZAvatar from '../images/JoeZ.png'
-import JoeSAvatar from '../images/JoeS.png'
-import ChloeAvatar from '../images/Chloe.png'
-import JackAvatar from '../images/Jack.png'
-import LinyiAvatar from '../images/Linyi.png'
-import TJinAvatar from '../images/TJin.png'
+import ElaineAvatar from '../images/Elaine.gif'
+import JoeZAvatar from '../images/JoeZ.gif'
+import JoeSAvatar from '../images/JoeS.gif'
+import ChloeAvatar from '../images/Chloe.gif'
+import JackAvatar from '../images/Jack.gif'
+import LinyiAvatar from '../images/Linyi.gif'
+import TJinAvatar from '../images/TJin.gif'
 import { TypeAnimation } from 'react-type-animation';
 import './home.css'
 
@@ -106,7 +106,7 @@ class Home extends Component{
 				<div className="avatar2">
 					<Stack direction="Column" spacing={8}>
 						<div>
-							<Avatar alt="Chloe" src={ChloeAvatar} variant="square" sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Chloe');}}
+							<Avatar alt="Chloe" src={ChloeAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Chloe');}}
 							onMouseEnter={() => this.sayHello('Chloe')} onMouseLeave={() => this.sayHello()}/> Chloe
 						</div>		
 						<div>
@@ -114,7 +114,7 @@ class Home extends Component{
 							onMouseEnter={() => this.sayHello('TJin')} onMouseLeave={() => this.sayHello()}/> TJin
 						</div>
 						<div>
-							<Avatar alt="Joe Sun" src={JoeSAvatar} sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Joe Sun');}}
+							<Avatar alt="Joe Sun" src={JoeSAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Joe Sun');}}
 							onMouseEnter={() => this.sayHello('Joe Sun')} onMouseLeave={() => this.sayHello()}/> Joe Sun
 						</div>			
 					</Stack>
