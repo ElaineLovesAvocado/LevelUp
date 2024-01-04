@@ -11,6 +11,7 @@ import Home from "./pages/home";
 import Ranking from "./pages/ranking";
 import Records from "./pages/records";
 import SeasonRanking from "./pages/seasonRanking";
+import withSplashScreen from "./components/Navbar/withSplashScreen";
 
 function App() {
 	return (
@@ -36,4 +37,4 @@ function App() {
 	);
 }
 
-export default App;
+export default withSplashScreen(App);

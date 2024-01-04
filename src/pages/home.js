@@ -11,120 +11,112 @@ import TJinAvatar from '../images/TJin.gif'
 import { TypeAnimation } from 'react-type-animation';
 import './home.css'
 
-class Home extends Component{
-
-	constructor(props) {
-		super(props);
-		this.state = {
-			comments: null,
-		}
-	}
-
-	 sayHello = (personName) => {
+const Home = () => {
+	const [comments, setComments] = React.useState(null)
+	
+	 const sayHello = (personName) => {
 		switch (personName){
 			case 'Linyi':
-				this.setState({comments: personName+": 浅尊重一下，➕10分"})
+				setComments(personName+": 浅尊重一下，➕10分")
 				//alert("浅尊重一下，➕10分");
 				break;
 			case 'Jack':
-				this.setState({comments: personName+": 我有3个J， 在等TJin出3个10"})
+				setComments(personName+": 我有3个J， 在等TJin出3个10")
 				break;
 			case 'TJin':
-				this.setState({comments: personName+": 大王要留在最后扣底"})
+				setComments(personName+": 大王要留在最后扣底")
 				break;
 			case 'Joe Zhou':
-				this.setState({comments: personName+": 要坐在Joe Sun下家, 随时准备上车"})
+				setComments(personName+": 要坐在Joe Sun下家, 随时准备上车")
 				break;
 			case 'Elaine':
-				this.setState({comments: personName+": 今晚又睡不着了， 救命"})
+				setComments(personName+": 今晚又睡不着了， 救命")
 				break;
 			case 'Joe Sun':
-				this.setState({comments: personName+": 亮主，没人反我拿底牌了啊"})
+				setComments(personName+": 亮主，没人反我拿底牌了啊")
 				break;
 			case 'Chloe':
-				this.setState({comments: personName+": 这个庄家好菜啊"})
+				setComments(personName+": 这个庄家好菜啊")
 				break;
 			default:
-				this.setState({comments: null})
+				setComments(null)
 				break;
 		}
 	  };
 
-	  render(){
+		return (		
+			<div className="body">
+				
+				<div className="intro">
+					<h1>Players</h1>
+				</div>
 
-	return (
+				<div className="welcomeMsg">
+					<TypeAnimation
+						sequence={[
+							'Welcome to our Level Up world!!!',
+							() => {
+							console.log('Sequence completed');
+							},
+						]}
+						wrapper="span"
+						cursor={true}
+						repeat={0}
+						style={{ display: 'inline-block' }}
+					/>
+				</div>
+
+				<div className="personalMsg">
+					<p>{ comments }</p>
+				</div>
+
+
+				<div className="players" >
+					<div className="avatar1">
+						<Stack direction="Column" spacing={8}>
+							<div id="linyi">
+								<Avatar alt="Linyi" src={LinyiAvatar} sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Linyi');} } 
+								onMouseEnter={() => sayHello('Linyi')} onMouseLeave={() => sayHello()} /> Linyi
+							</div>
+							<div id="Jack">
+								<Avatar alt="Jack" src={JackAvatar} sx={{ width: 80, height: 80 }}  onClick={() => {sayHello('Jack');}} 
+								onMouseEnter={() => sayHello('Jack')} onMouseLeave={() => sayHello()}/> Jack
+							</div>
+							<div id="Elaine">
+								<Avatar alt="Elaine" src={ElaineAvatar} sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Elaine');}}
+								onMouseEnter={() => sayHello('Elaine')} onMouseLeave={() => sayHello()}/> Elaine
+							</div>	
+							<div id='JoeZ'>						
+								<Avatar alt="Joe Zhou" src={JoeZAvatar} sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Joe Zhou');}}
+								onMouseEnter={() => sayHello('Joe Zhou')} onMouseLeave={() => sayHello()}/> Joe Zhou					
+							</div>					
+						</Stack>
+						
+					</div>
+					<br/>
+
+					<div className="avatar2">
+						<Stack direction="Column" spacing={8}>
+							<div>
+								<Avatar alt="Chloe" src={ChloeAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Chloe');}}
+								onMouseEnter={() => sayHello('Chloe')} onMouseLeave={() => sayHello()}/> Chloe
+							</div>		
+							<div>
+								<Avatar alt="TJin" src={TJinAvatar} sx={{ width: 80, height: 80 }} onClick={() => {sayHello('TJin');}}
+								onMouseEnter={() => sayHello('TJin')} onMouseLeave={() => sayHello()}/> TJin
+							</div>
+							<div>
+								<Avatar alt="Joe Sun" src={JoeSAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Joe Sun');}}
+								onMouseEnter={() => sayHello('Joe Sun')} onMouseLeave={() => sayHello()}/> Joe Sun
+							</div>			
+						</Stack>
+					</div>
+
+				</div>
 		
-		<div className="body">
-			<div className="intro">
-				<h1>Players</h1>
 			</div>
-
-			<div className="welcomeMsg">
-				<TypeAnimation
-					sequence={[
-						'Welcome to our Level Up world!!!',
-						() => {
-						console.log('Sequence completed');
-						},
-					]}
-					wrapper="span"
-					cursor={true}
-					repeat={0}
-					style={{ display: 'inline-block' }}
-				/>
-			</div>
-
-			<div className="personalMsg">
-				<p>{ this.state.comments }</p>
-			</div>
-
-
-			<div className="players">
-				<div className="avatar1">
-					<Stack direction="Column" spacing={8}>
-						<div id="linyi">
-							<Avatar alt="Linyi" src={LinyiAvatar} sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Linyi');} } 
-							onMouseEnter={() => this.sayHello('Linyi')} onMouseLeave={() => this.sayHello()} /> Linyi
-						</div>
-						<div id="Jack">
-							<Avatar alt="Jack" src={JackAvatar} sx={{ width: 80, height: 80 }}  onClick={() => {this.sayHello('Jack');}} 
-							onMouseEnter={() => this.sayHello('Jack')} onMouseLeave={() => this.sayHello()}/> Jack
-						</div>
-						<div id="Elaine">
-							<Avatar alt="Elaine" src={ElaineAvatar} sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Elaine');}}
-							onMouseEnter={() => this.sayHello('Elaine')} onMouseLeave={() => this.sayHello()}/> Elaine
-						</div>	
-						<div id='JoeZ'>						
-							<Avatar alt="Joe Zhou" src={JoeZAvatar} sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Joe Zhou');}}
-							onMouseEnter={() => this.sayHello('Joe Zhou')} onMouseLeave={() => this.sayHello()}/> Joe Zhou					
-						</div>					
-					</Stack>
-					
-				</div>
-				<br/>
-
-				<div className="avatar2">
-					<Stack direction="Column" spacing={8}>
-						<div>
-							<Avatar alt="Chloe" src={ChloeAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Chloe');}}
-							onMouseEnter={() => this.sayHello('Chloe')} onMouseLeave={() => this.sayHello()}/> Chloe
-						</div>		
-						<div>
-							<Avatar alt="TJin" src={TJinAvatar} sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('TJin');}}
-							onMouseEnter={() => this.sayHello('TJin')} onMouseLeave={() => this.sayHello()}/> TJin
-						</div>
-						<div>
-							<Avatar alt="Joe Sun" src={JoeSAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {this.sayHello('Joe Sun');}}
-							onMouseEnter={() => this.sayHello('Joe Sun')} onMouseLeave={() => this.sayHello()}/> Joe Sun
-						</div>			
-					</Stack>
-				</div>
-
-			</div>
-	
-		</div>
-	);}
-};
+		);
+	};
 
 export default Home
 
