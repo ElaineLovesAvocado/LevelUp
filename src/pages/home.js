@@ -17,26 +17,26 @@ const Home = () => {
 	 const sayHello = (personName) => {
 		switch (personName){
 			case 'Linyi':
-				setComments(personName+": 浅尊重一下，➕10分")
+				setComments(personName+": 本周五我要逃离被吃分的命运 ￣へ￣")
 				//alert("浅尊重一下，➕10分");
 				break;
 			case 'Jack':
-				setComments(personName+": 我有3个J， 在等TJin出3个10")
+				setComments(personName+": 贴牌，上车")
 				break;
 			case 'TJin':
-				setComments(personName+": 大王要留在最后扣底")
+				setComments(personName+": 好好好")
 				break;
 			case 'Joe Zhou':
-				setComments(personName+": 要坐在Joe Sun下家, 随时准备上车")
+				setComments(personName+": 没人阻止我翻别人的牌 (¬◡¬)")
 				break;
 			case 'Elaine':
-				setComments(personName+": 今晚又睡不着了， 救命")
+				setComments(personName+": 清醒一点 (ಥ﹏ಥ)")
 				break;
 			case 'Joe Sun':
-				setComments(personName+": 亮主，没人反我拿底牌了啊")
+				setComments(personName+": 浅亮一下")
 				break;
 			case 'Chloe':
-				setComments(personName+": 这个庄家好菜啊")
+				setComments(personName+": 我的牌「一般」")
 				break;
 			default:
 				setComments(null)

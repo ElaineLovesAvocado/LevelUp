@@ -1,4 +1,4 @@
-const record = '1-1-2024	6	6	A🌟	9	J	K	10	JoeS	Elaine	NA	NA													';
+const record = '1-5-2024	10	10	8	4	A🌟	4	Q	Chloe	Linyi	NA	NA	';
 
 const formatRecord = record.replace(/\t/g, ' ').trim();
 

@@ -29,7 +29,9 @@ function createData(Date, Jack,	TJin,	JoeS,	JoeZ,	Chloe,	Elaine,	Linyi,  FirstPl
 const rows = [
     createData( '1-1-2024', '8', 'A+🌟', 'NA','9', 'A+🌟', 'A','7','TJ,Chloe', 'Elaine','NA','NA'),
     createData('1-1-2024', '8', 'A🌟', '8', '10+', '10', '9', '3', 'TJ', 'JoeZ', 'NA', 'NA'),
-    createData('1-1-2024', '6', '6', 'A🌟', '9', 'J', 'K', '10', 'JoeS', 'Elaine', 'NA', 'NA')
+    createData('1-1-2024', '6', '6', 'A🌟', '9', 'J', 'K', '10', 'JoeS', 'Elaine', 'NA', 'NA'),
+    createData('1-5-2024', 'A🌟', 'K', 'A+', 'A🌟', '10', 'A', 'J', 'Jack,JoeZ', 'JoeS', 'NA', 'NA'),
+    createData('1-5-2024', '10', '10', '8', '4', 'A🌟', '4', 'Q', 'Chloe', 'Linyi', 'NA', 'NA')
   ];
 
 const Records = () => {
