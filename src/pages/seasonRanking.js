@@ -75,8 +75,7 @@ export default function SeasonRanking() {
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" 
         variant="scrollable" scrollButtons="auto">
           <Tab label="2023 Dec" {...a11yProps(0)} />
-          <Tab label="2024 Jan" {...a11yProps(1)} />
-          <Tab label="2024 Feb" {...a11yProps(2)} />
+          <Tab label="2024 Jan-Feb" {...a11yProps(1)} />
           <Tab label="2024 Mar" {...a11yProps(3)} />
           <Tab label="2024 Apr" {...a11yProps(4)} />
           <Tab label="2024 May" {...a11yProps(5)} />
@@ -177,9 +176,6 @@ export default function SeasonRanking() {
             </div>
           </div>
           
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
-        Coming soon ...
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
         Coming soon ...
