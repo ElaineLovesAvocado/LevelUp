@@ -21,7 +21,7 @@ const Home = () => {
 				//alert("浅尊重一下，➕10分");
 				break;
 			case 'Jack':
-				setComments(personName+": 贴牌，上车")
+				setComments(personName+": 我是rich boy 三连拖小王子")
 				break;
 			case 'TJin':
 				setComments(personName+": 好好好")
