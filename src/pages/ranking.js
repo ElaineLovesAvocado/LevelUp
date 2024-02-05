@@ -35,13 +35,13 @@ function createData(id, name, totalScore, numFirst, numSecond, numSuper, numSupe
 }
 
 const rows = [
-  createData(1, 'Jack', 20, 2, 0, 0, 0),
-  createData(2, 'Linyi', 10, 0, 2, 0, 0),
-  createData(3, 'Joe Zhou', 30, 1, 2, 0, 1),
+  createData(1, 'Jack', 35, 2, 1, 0, 1),
+  createData(2, 'Linyi', 15, 0, 3, 0, 0),
+  createData(3, 'Joe Zhou', 55, 3, 3, 0, 1),
   createData(4, 'Elaine', 30, 1, 2, 0, 1),
-  createData(5, 'Joe Sun', 45, 2, 2, 1, 0),
-  createData(6, 'Chloe', 30, 3, 0, 0, 0),
-  createData(7, 'TJin', 25, 2, 1, 0, 0),
+  createData(5, 'Joe Sun', 65, 3, 2, 1, 1),
+  createData(6, 'Chloe', 45, 3, 0, 1, 0),
+  createData(7, 'TJin', 30, 2, 2, 0, 0),
 ];
 
 function descendingComparator(a, b, orderBy) {
