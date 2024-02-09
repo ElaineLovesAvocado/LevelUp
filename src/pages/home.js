@@ -27,7 +27,7 @@ const Home = () => {
 				setComments(personName+": 好好好")
 				break;
 			case 'Joe Zhou':
-				setComments(personName+": 没人阻止我翻别人的牌 (¬◡¬)")
+				setComments(personName+": 我要贴牌啦 (¬◡¬)")
 				break;
 			case 'Elaine':
 				setComments(personName+": 清醒一点 (ಥ﹏ಥ)")
