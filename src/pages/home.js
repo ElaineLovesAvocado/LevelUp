@@ -2,7 +2,8 @@ import React, { Component} from "react";
 import Stack from '@mui/material/Stack';
 import Avatar from '@mui/material/Avatar';
 import ElaineAvatar from '../images/Elaine.gif'
-import JoeZAvatar from '../images/JoeZ.gif'
+//import JoeZAvatar from '../images/JoeZ.gif'
+import JoeZAvatar from '../images/pokemonEgg.gif'
 import JoeSAvatar from '../images/JoeS.gif'
 import ChloeAvatar from '../images/Chloe.gif'
 import JackAvatar from '../images/Jack.gif'
