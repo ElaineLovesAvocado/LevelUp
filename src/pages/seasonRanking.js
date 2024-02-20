@@ -178,7 +178,7 @@ export default function SeasonRanking() {
           <div className="words">
             <TypeAnimation
                 sequence={[
-                  'As season 2 came to an end, Dratini, Meowth and Alolan Vulpix energed as top 3 contenders and each have undergone remarkable evolution!!!',
+                  'As season 2 came to an end, Dratini, Meowth and Alolan Vulpix emerged as top 3 contenders and each has undergone remarkable evolution!!!',
                   () => {
                   },
                 ]}
