@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/LevelUp/static/css/main.8dd9c71d.css",
-    "main.js": "/LevelUp/static/js/main.a8a5ca0a.js",
+    "main.css": "/LevelUp/static/css/main.59a38e47.css",
+    "main.js": "/LevelUp/static/js/main.33b5ab70.js",
     "static/js/787.6a4e74f5.chunk.js": "/LevelUp/static/js/787.6a4e74f5.chunk.js",
+    "static/media/Chloe_season2.gif": "/LevelUp/static/media/Chloe_season2.9528a5e3345b433494c0.gif",
     "static/media/TJin.gif": "/LevelUp/static/media/TJin.e42fcdef075e5feeddd6.gif",
+    "static/media/JoeSun_season2.gif": "/LevelUp/static/media/JoeSun_season2.5426066b5fe8f592bcc9.gif",
     "static/media/JoeS.gif": "/LevelUp/static/media/JoeS.58f52bffdba9200237d7.gif",
     "static/media/Elaine.gif": "/LevelUp/static/media/Elaine.5ee3bf11e43aaf429569.gif",
     "static/media/Linyi.gif": "/LevelUp/static/media/Linyi.e5445475551838651c7e.gif",
     "static/media/JoeZ.gif": "/LevelUp/static/media/JoeZ.21de1516c8c3c7fec672.gif",
     "static/media/Jack.gif": "/LevelUp/static/media/Jack.1f219db10a088b84330e.gif",
     "static/media/podium.png": "/LevelUp/static/media/podium.9799120042d25b0e2ace.png",
-    "static/media/yearOfDragonGif.gif": "/LevelUp/static/media/yearOfDragonGif.f8d6d93a001e25b06630.gif",
+    "static/media/JoeZhou_season2.gif": "/LevelUp/static/media/JoeZhou_season2.26036fdb918bfd67cd3c.gif",
     "static/media/Chloe.gif": "/LevelUp/static/media/Chloe.1b549dc7c3406b7c6e14.gif",
+    "static/media/dragoniteEvolved.gif": "/LevelUp/static/media/dragoniteEvolved.83976e4e8ea354b4e545.gif",
     "static/media/golduck.gif": "/LevelUp/static/media/golduck.64d650250c2875446b92.gif",
     "static/media/sylveon.gif": "/LevelUp/static/media/sylveon.281c90805a0a101c32af.gif",
     "static/media/Elaine.png": "/LevelUp/static/media/Elaine.503d84aaabbed35035a9.png",
@@ -23,12 +26,12 @@
     "static/media/JoeZ.png": "/LevelUp/static/media/JoeZ.4c9ed55818bb8442b953.png",
     "static/media/pokemonEgg.gif": "/LevelUp/static/media/pokemonEgg.85151fb5e424e2ad7449.gif",
     "index.html": "/LevelUp/index.html",
-    "main.8dd9c71d.css.map": "/LevelUp/static/css/main.8dd9c71d.css.map",
-    "main.a8a5ca0a.js.map": "/LevelUp/static/js/main.a8a5ca0a.js.map",
+    "main.59a38e47.css.map": "/LevelUp/static/css/main.59a38e47.css.map",
+    "main.33b5ab70.js.map": "/LevelUp/static/js/main.33b5ab70.js.map",
     "787.6a4e74f5.chunk.js.map": "/LevelUp/static/js/787.6a4e74f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dd9c71d.css",
-    "static/js/main.a8a5ca0a.js"
+    "static/css/main.59a38e47.css",
+    "static/js/main.33b5ab70.js"
   ]
 }
