@@ -36,12 +36,40 @@
 }
 
 .Podium img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5%;
     width: 30%; 
-    margin-top: 150px; 
-    animation: zoom-in-zoom-out 4s ease infinite;
+}
+.Season2Ranking  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-bottom: -11% ;
+}
+
+#season2Rank2 {
+    margin-top: 45%;
+    width: 150px
+}
+
+#season2Rank1 {
+    width: 230px
+}
+
+#season2Rank3 {
+    margin-top: 40%;
+    width: 200px;
+    margin-bottom: -10%;
+    
+}
+
+.Season2Ranking img {
+    margin-top: 30%;
+    width: 100%;
 }
 
 @keyframes zoom-in-zoom-out {
@@ -58,6 +86,34 @@
 
 @media only screen and (max-width: 480px) {
     .Podium img{      
-        width: 250px; 
+        width: 300px; 
+    }
+
+    .Season2Ranking  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 19%;
+        margin-right: 19%;
+        margin-bottom: -16% ;
+    }
+    
+    #season2Rank2 {
+        margin-top: 25%;
+        width: 30%
+    }
+    
+    #season2Rank1 {
+        width: 50%
+    }
+    
+    #season2Rank3 {
+        margin-top: 30%;
+        width: 45%
+    }
+    
+    .Season2Ranking img {
+        margin-top: 10%;
+        width: 100%;
     }
   }

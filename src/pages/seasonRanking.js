@@ -25,6 +25,9 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import Podium from '../images/podium.png';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import { TypeAnimation } from 'react-type-animation';
+import season2_rank1 from '../images/Season2/JoeSun_season2.gif';
+import season2_rank2 from '../images/Season2/JoeZhou_season2.gif';
+import season2_rank3 from '../images/Season2/Chloe_season2.gif'
 
 import './seasonRanking.css'
 
@@ -145,29 +148,59 @@ export default function SeasonRanking() {
           <div className='AvatarGroup'>
             <div id='JoeS'>
 							<Avatar alt="Joe Sun" variant="square" src={JoeSAvatar1} sx={{ width: 55, height: 55 }} /> 
+              <div> R1-75</div>
+						</div>
+            <div id='JoeZ'>						
+							<Avatar alt="Joe Zhou" variant="square" src={JoeZAvatar1} sx={{ width: 55, height: 55 }}/> 
+              <div> R2-60</div>				
 						</div>
             <div id='Chole'>
 							<Avatar alt="Chloe" variant="square" src={ChloeAvatar1} sx={{ width: 55, height: 55 }} /> 
+              <div>R3-55</div>
 						</div>		     	
 						<div id='TJin'>
 							<Avatar alt="TJin" variant="square" src={TJinAvatar1} sx={{ width: 55, height: 55 }} /> 
+              <div>R4-50</div>
 						</div>
-            <div id='JoeZ'>						
-							<Avatar alt="Joe Zhou" variant="square" src={JoeZAvatar1} sx={{ width: 55, height: 55 }}/> 				
+            <div id="Jack">
+							<Avatar alt="Jack" variant="square" src={JackAvatar1} sx={{ width: 55, height: 55 }} />
+              <div>R5-45</div>
 						</div>
             <div id="Elaine">
-							<Avatar alt="Elaine" variant="square" src={ElaineAvatar1} sx={{ width: 55, height: 55 }} /> 
+							<Avatar alt="Elaine" variant="square" src={ElaineAvatar1} sx={{ width: 55, height: 55 }} />
+              <div>R6-30</div> 
 						</div>	
             <div id="linyi">
 							<Avatar alt="Linyi" variant="square" src={LinyiAvatar1} sx={{ width: 55, height: 55 }} /> 
-						</div>
-						<div id="Jack">
-							<Avatar alt="Jack" variant="square" src={JackAvatar1} sx={{ width: 55, height: 55 }} /> 
+              <div>R7-20</div>
 						</div>			
 					</div>
+          <div className="words">
+            <TypeAnimation
+                sequence={[
+                  'As season 2 came to an end, Dratini, Meowth and Alolan Vulpix energed as top 3 contenders and each have undergone remarkable evolution!!!',
+                  () => {
+                  },
+                ]}
+                wrapper="span"
+                cursor={true}
+                repeat={0}
+                style={{ display: 'inline-block' }}
+				    />
+          </div>
           <div className='questionIcon'>
             <div><ArrowDownwardIcon sx={{ fontSize: 55 }} /></div>
-            <div><HelpOutlineOutlinedIcon sx={{ fontSize: 55 }}/></div>
+          </div>
+          <div className='Season2Ranking'>
+            <div id='season2Rank2'>
+              <img src={season2_rank2} alt="Rank2" loading="lazy" />
+            </div>
+            <div id='season2Rank1'>
+              <img src={season2_rank1} alt="Rank1" loading="lazy" />
+            </div>
+            <div id='season2Rank3'>
+              <img src={season2_rank3} alt="Rank3" loading="lazy" />
+            </div>
           </div>
 
           <div className="Podium">

@@ -35,12 +35,12 @@ function createData(id, name, totalScore, numFirst, numSecond, numSuper, numSupe
 }
 
 const rows = [
-  createData(1, 'Jack', 35, 2, 1, 0, 1),
+  createData(1, 'Jack', 45, 3, 1, 0, 1),
   createData(2, 'Linyi', 20, 0, 4, 0, 0),
-  createData(3, 'Joe Zhou', 55, 3, 3, 0, 1),
+  createData(3, 'Joe Zhou', 60, 3, 4, 0, 1),
   createData(4, 'Elaine', 30, 1, 2, 0, 1),
-  createData(5, 'Joe Sun', 65, 3, 2, 1, 1),
-  createData(6, 'Chloe', 50, 3, 1, 1, 0),
+  createData(5, 'Joe Sun', 75, 4, 2, 1, 1),
+  createData(6, 'Chloe', 55, 3, 2, 1, 0),
   createData(7, 'TJin', 50, 4, 2, 0, 0),
 ];
 

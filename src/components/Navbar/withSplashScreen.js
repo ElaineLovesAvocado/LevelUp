@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import logo from '../../images/SplashFinal.png';
-import logo from '../../images/yearOfDragonGif.gif';
+import logo from '../../images/Season2/dragoniteEvolved.gif';
 import './withSplashScreen.css'
 
 
@@ -29,7 +29,7 @@ export default function withSplashScreen(WrappedComponent) {
                     this.setState({
                         loading: false,
                     });
-                }, 3000)
+                }, 3750)
             } catch (err) {
                 console.log(err);
                 this.setState({
