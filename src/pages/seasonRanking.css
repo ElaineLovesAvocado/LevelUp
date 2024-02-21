@@ -21,14 +21,24 @@
     justify-content: center;
 }
 
+.SeasonTitle {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 18px;
+    padding-bottom: 3%;
+    font-weight: bold;
+}
+
 .words{
     display: flex;
     justify-content: center;
-    color: #403d39;
-    font-family: Monospace;
-    font-size: 12px;
+    font-family: fantasy;
+    font-size: 13px;
     padding-left: 3%;
     padding-right: 3%;
+    margin-top: 3%;
+    text-shadow: 1px 1px 2px #cebebe;
 }
 
 .evolution{
@@ -89,6 +99,7 @@
 @media only screen and (max-width: 480px) {
     .Podium img{      
         width: 300px; 
+        margin-top: -10%;
     }
 
     .Season2Ranking  {
@@ -101,8 +112,9 @@
     }
     
     #season2Rank2 {
-        margin-top: 30%;
-        width: 30%
+        width: 30%;
+        margin-bottom: 10%;
+        
     }
     
     #season2Rank1 {
@@ -110,11 +122,11 @@
     }
     
     #season2Rank3 {
-        margin-top: 40%;
         width: 45%
     }
     
     .Season2Ranking img {
         width: 100%;
+        margin-bottom: -30%;
     }
   }

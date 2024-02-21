@@ -92,6 +92,9 @@ export default function SeasonRanking() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
+          <div className='SeasonTitle'>
+            Season 1 Final Ranking
+          </div>
         <div className='AvatarGroup'>
             <div id='JoeS'>
 							<Avatar alt="Joe Sun" src={JoeSAvatar} sx={{ width: 55, height: 55 }} /> 
@@ -145,6 +148,9 @@ export default function SeasonRanking() {
           </div>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
+          <div className='SeasonTitle'>
+            Season 2 Final Ranking
+          </div>
           <div className='AvatarGroup'>
             <div id='JoeS'>
 							<Avatar alt="Joe Sun" variant="square" src={JoeSAvatar1} sx={{ width: 55, height: 55 }} /> 
