@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LevelUp/static/css/main.9a67f929.css",
+    "main.css": "/LevelUp/static/css/main.ac146c44.css",
     "main.js": "/LevelUp/static/js/main.7bfc1fdc.js",
     "static/js/787.6a4e74f5.chunk.js": "/LevelUp/static/js/787.6a4e74f5.chunk.js",
     "static/media/Chloe_season2.gif": "/LevelUp/static/media/Chloe_season2.9528a5e3345b433494c0.gif",
@@ -26,12 +26,12 @@
     "static/media/JoeZ.png": "/LevelUp/static/media/JoeZ.4c9ed55818bb8442b953.png",
     "static/media/pokemonEgg.gif": "/LevelUp/static/media/pokemonEgg.85151fb5e424e2ad7449.gif",
     "index.html": "/LevelUp/index.html",
-    "main.9a67f929.css.map": "/LevelUp/static/css/main.9a67f929.css.map",
+    "main.ac146c44.css.map": "/LevelUp/static/css/main.ac146c44.css.map",
     "main.7bfc1fdc.js.map": "/LevelUp/static/js/main.7bfc1fdc.js.map",
     "787.6a4e74f5.chunk.js.map": "/LevelUp/static/js/787.6a4e74f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a67f929.css",
+    "static/css/main.ac146c44.css",
     "static/js/main.7bfc1fdc.js"
   ]
 }
