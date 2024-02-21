@@ -148,49 +148,50 @@ export default function SeasonRanking() {
           <div className='AvatarGroup'>
             <div id='JoeS'>
 							<Avatar alt="Joe Sun" variant="square" src={JoeSAvatar1} sx={{ width: 55, height: 55 }} /> 
-              <div> R1-75</div>
+              <div> No1.75</div>
 						</div>
             <div id='JoeZ'>						
 							<Avatar alt="Joe Zhou" variant="square" src={JoeZAvatar1} sx={{ width: 55, height: 55 }}/> 
-              <div> R2-60</div>				
+              <div> No2.60</div>				
 						</div>
             <div id='Chole'>
 							<Avatar alt="Chloe" variant="square" src={ChloeAvatar1} sx={{ width: 55, height: 55 }} /> 
-              <div>R3-55</div>
+              <div>No3.55</div>
 						</div>		     	
 						<div id='TJin'>
 							<Avatar alt="TJin" variant="square" src={TJinAvatar1} sx={{ width: 55, height: 55 }} /> 
-              <div>R4-50</div>
+              <div>No4.50</div>
 						</div>
             <div id="Jack">
 							<Avatar alt="Jack" variant="square" src={JackAvatar1} sx={{ width: 55, height: 55 }} />
-              <div>R5-45</div>
+              <div>No5.45</div>
 						</div>
             <div id="Elaine">
 							<Avatar alt="Elaine" variant="square" src={ElaineAvatar1} sx={{ width: 55, height: 55 }} />
-              <div>R6-30</div> 
+              <div>No6.30</div> 
 						</div>	
             <div id="linyi">
 							<Avatar alt="Linyi" variant="square" src={LinyiAvatar1} sx={{ width: 55, height: 55 }} /> 
-              <div>R7-20</div>
+              <div>No7.20</div>
 						</div>			
 					</div>
           <div className="words">
             <TypeAnimation
                 sequence={[
-                  'As season 2 came to an end, Dratini, Meowth and Alolan Vulpix emerged as top 3 contenders and each has undergone remarkable evolution!!!',
+                  'As season 2 drew to a close, Dratini, Meowth and Alolan Vulpix secured the top 3 spots and each has undergone remarkable evolution! However, heart sank for Abra, who narrowly missed the mark, landing at No.4 and failing to evolve. On a brighter note, Squirtle showcased remarkable growth, mastering a special ability to catch 三连拖 and soaring to No.5. Meanwhile, Togepi and Jigglypuff, beloved for their adorable charm, found themselves preoccupied with exploration, study and work, resulting in a lack of sleep and lower rankings, they promised to bounce back stronger in next season!!!',
                   () => {
                   },
                 ]}
                 wrapper="span"
                 cursor={true}
                 repeat={0}
+                speed={80}
                 style={{ display: 'inline-block' }}
 				    />
           </div>
-          <div className='questionIcon'>
-            <div><ArrowDownwardIcon sx={{ fontSize: 55 }} /></div>
-          </div>
+          {/* <div className='questionIcon'>
+            <div><ArrowDownwardIcon sx={{ fontSize: 30 }} /></div>
+          </div> */}
           <div className='Season2Ranking'>
             <div id='season2Rank2'>
               <img src={season2_rank2} alt="Rank2" loading="lazy" />
