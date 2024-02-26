@@ -24,7 +24,7 @@
 .SeasonTitle {
     display: flex;
     justify-content: center;
-    font-family: fantasy;
+    font-family: cursive;;
     font-size: 18px;
     padding-bottom: 3%;
     font-weight: bold;
@@ -33,8 +33,8 @@
 .words{
     display: flex;
     justify-content: center;
-    font-family: fantasy;
-    font-size: 13px;
+    font-family: monospace;
+    font-size: 12px;
     padding-left: 3%;
     padding-right: 3%;
     margin-top: 3%;
