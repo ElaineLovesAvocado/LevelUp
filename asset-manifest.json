@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LevelUp/static/css/main.27032788.css",
-    "main.js": "/LevelUp/static/js/main.29dc3d42.js",
+    "main.js": "/LevelUp/static/js/main.4c2c2217.js",
     "static/js/787.6a4e74f5.chunk.js": "/LevelUp/static/js/787.6a4e74f5.chunk.js",
     "static/media/Chloe_season2.gif": "/LevelUp/static/media/Chloe_season2.9528a5e3345b433494c0.gif",
     "static/media/TJin.gif": "/LevelUp/static/media/TJin.e42fcdef075e5feeddd6.gif",
@@ -17,6 +17,7 @@
     "static/media/dragoniteEvolved.gif": "/LevelUp/static/media/dragoniteEvolved.83976e4e8ea354b4e545.gif",
     "static/media/golduck.gif": "/LevelUp/static/media/golduck.64d650250c2875446b92.gif",
     "static/media/sylveon.gif": "/LevelUp/static/media/sylveon.281c90805a0a101c32af.gif",
+    "static/media/unknownPokemon.png": "/LevelUp/static/media/unknownPokemon.5d3dc0ac222c988a4f1c.png",
     "static/media/Elaine.png": "/LevelUp/static/media/Elaine.503d84aaabbed35035a9.png",
     "static/media/Chloe.png": "/LevelUp/static/media/Chloe.a9d033c08ad8b95afcd8.png",
     "static/media/TJin.png": "/LevelUp/static/media/TJin.bcc160aafd18241d087c.png",
@@ -27,11 +28,11 @@
     "static/media/pokemonEgg.gif": "/LevelUp/static/media/pokemonEgg.85151fb5e424e2ad7449.gif",
     "index.html": "/LevelUp/index.html",
     "main.27032788.css.map": "/LevelUp/static/css/main.27032788.css.map",
-    "main.29dc3d42.js.map": "/LevelUp/static/js/main.29dc3d42.js.map",
+    "main.4c2c2217.js.map": "/LevelUp/static/js/main.4c2c2217.js.map",
     "787.6a4e74f5.chunk.js.map": "/LevelUp/static/js/787.6a4e74f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27032788.css",
-    "static/js/main.29dc3d42.js"
+    "static/js/main.4c2c2217.js"
   ]
 }
