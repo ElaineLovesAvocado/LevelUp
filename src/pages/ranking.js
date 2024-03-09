@@ -35,13 +35,16 @@ function createData(id, name, totalScore, numFirst, numSecond, numSuper, numSupe
 }
 
 const rows = [
-  createData(1, 'Jack', 45, 3, 1, 0, 1),
-  createData(2, 'Linyi', 20, 0, 4, 0, 0),
-  createData(3, 'Joe Zhou', 60, 3, 4, 0, 1),
-  createData(4, 'Elaine', 30, 1, 2, 0, 1),
-  createData(5, 'Joe Sun', 75, 4, 2, 1, 1),
-  createData(6, 'Chloe', 55, 3, 2, 1, 0),
-  createData(7, 'TJin', 50, 4, 2, 0, 0),
+  createData(1, 'Jack', 0, 0, 0, 0, 0),
+  createData(2, 'Linyi', 0, 0, 0, 0, 0),
+  createData(3, 'Joe Zhou', 10, 1, 0, 0, 0),
+  createData(4, 'Elaine', 5, 0, 1, 0, 0),
+  createData(5, 'Joe Sun', 0, 0, 0, 0, 0),
+  createData(6, 'Chloe', 0, 0, 0, 0, 0),
+  createData(7, 'TJin', 0, 0, 0, 0, 0),
+  createData(8, 'Amy', 0, 0, 0, 0, 0),
+  createData(9, 'Derek', 0, 0, 0, 0, 0),
+
 ];
 
 function descendingComparator(a, b, orderBy) {
@@ -236,7 +239,7 @@ export default function Ranking() {
   const [selected, setSelected] = React.useState([]);
   const [page, setPage] = React.useState(0);
   const [dense, setDense] = React.useState(false);
-  const [rowsPerPage, setRowsPerPage] = React.useState(7);
+  const [rowsPerPage, setRowsPerPage] = React.useState(10);
 
   const handleRequestSort = (event, property) => {
     const isAsc = orderBy === property && order === 'asc';

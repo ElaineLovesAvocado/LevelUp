@@ -66,7 +66,7 @@ function a11yProps(index) {
 }
 
 export default function SeasonRanking() {
-  const [value, setValue] = React.useState(1);
+  const [value, setValue] = React.useState(2);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -216,6 +216,15 @@ export default function SeasonRanking() {
             </div>
           </div>
           
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={2}>
+        Coming soon ...
+
+        <div className="Podium">
+            <div id='Podium'>
+              <img src={Podium} alt="Podium" loading="lazy" />
+            </div>
+          </div>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
         Coming soon ...

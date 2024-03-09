@@ -17,8 +17,8 @@ const columns = [
     { id: 'Chloe', label: 'Chloe', minWidth: 100, align: 'right' },
     { id: 'Elaine', label: 'Elaine', minWidth: 100, align: 'right' },
     { id: 'Linyi', label: 'Linyi', minWidth: 100, align: 'right' },
-    { id: 'FirstPlace', label: 'FirstPlace', minWidth: 170, align: 'right' },
-    { id: 'SecondPlace', label: 'SecondPlace', minWidth: 170, align: 'right' },
+    { id: 'FirstPlace', label: 'No.1', minWidth: 170, align: 'right' },
+    { id: 'SecondPlace', label: 'No.2', minWidth: 170, align: 'right' },
   ];
   
 function createData(Date, Jack,	TJin,	JoeS,	JoeZ,	Chloe,	Elaine,	Linyi,  FirstPlace,	 SecondPlace,) {
@@ -27,20 +27,7 @@ function createData(Date, Jack,	TJin,	JoeS,	JoeZ,	Chloe,	Elaine,	Linyi,  FirstPl
 
 
 const rows = [
-    createData( '1-1-2024', '8', 'A+🌟', 'NA','9', 'A+🌟', 'A','7','TJ,Chloe', 'Elaine','NA','NA'),
-    createData('1-1-2024', '8', 'A🌟', '8', '10+', '10', '9', '3', 'TJ', 'JoeZ', 'NA', 'NA'),
-    createData('1-1-2024', '6', '6', 'A🌟', '9', 'J', 'K', '10', 'JoeS', 'Elaine', 'NA', 'NA'),
-    createData('1-5-2024', 'A🌟', 'K', 'A+', 'A🌟', '10', 'A', 'J', 'Jack,JoeZ', 'JoeS', 'NA', 'NA'),
-    createData('1-5-2024', '10', '10', '8', '4', 'A🌟', '4', 'Q', 'Chloe', 'Linyi', 'NA', 'NA'),
-    createData('1-26-2024', '7', 'Q', '3+🌟', '8', '10', '8', 'K', 'JoeS', 'Linyi', 'NA', 'NA'),
-    createData('1-26-2024', '5', '7', 'J', '4', '2+🌟', '2', '10', 'Chole', 'JoeS', 'NA', 'NA'),
-    createData('2-2-2024', '10', 'A', '9', '9', '9', 'A+🌟', '9', 'Elaine', 'TJ', 'NA', 'NA'),
-    createData('2-2-2024', '7', '7', '4+🌟', '6', '9', '6', '6', 'JoeS', 'Elaine, JoeZ'),
-    createData('2-2-2024', 'A+🌟', 'A', 'Q', 'A', 'K', 'A', '8', 'Jack', 'JoeZ', 'NA', 'NA'),
-    createData('2-4-2024', '-', '-', '-', '-', '-', '-', '-', 'JoeZ', 'Linyi, Jack', 'NA', 'NA'),
-    createData('2-4-2024', '-', '-', '-', '-', '-', '-', '-', 'Chloe', 'Jack, JoeS'),
-    createData('2-4-2024', '-', '-', '-', '-', '-', '-', '-', 'JoeS', 'JoeZ', 'NA', 'NA'),
-    createData('2-4-2024', '-', '-', '-', '-', '-', '-', '-', 'JoeZ', 'TJin', 'NA', 'NA'),
+    createData( '3-8-2024', 'Q', 'Q', 'NA','2+🌟', 'NA', 'A+🌟','Q','Joe', 'Elaine','NA','NA'),
   ];
 
 const Records = () => {

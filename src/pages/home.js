@@ -9,6 +9,7 @@ import ChloeAvatar from '../images/Chloe.gif'
 import JackAvatar from '../images/Jack.gif'
 import LinyiAvatar from '../images/Linyi.gif'
 import TJinAvatar from '../images/TJin.gif'
+import questionAvatar from '../images/unknownPokemon.png'
 import { TypeAnimation } from 'react-type-animation';
 import './home.css'
 
@@ -19,7 +20,6 @@ const Home = () => {
 		switch (personName){
 			case 'Linyi':
 				setComments(personName+": 本周五我要逃离被吃分的命运 ￣へ￣")
-				//alert("浅尊重一下，➕10分");
 				break;
 			case 'Jack':
 				setComments(personName+": 我是rich boy 三连拖小王子")
@@ -88,7 +88,7 @@ const Home = () => {
 								onMouseEnter={() => sayHello('Elaine')} onMouseLeave={() => sayHello()}/> Elaine
 							</div>	
 							<div id='JoeZ'>						
-								<Avatar alt="Joe Zhou" src={JoeZAvatar} sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Joe Zhou');}}
+								<Avatar alt="Joe Zhou" src={questionAvatar} sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Joe Zhou');}}
 								onMouseEnter={() => sayHello('Joe Zhou')} onMouseLeave={() => sayHello()}/> Joe Zhou					
 							</div>					
 						</Stack>
@@ -99,7 +99,7 @@ const Home = () => {
 					<div className="avatar2">
 						<Stack direction="Column" spacing={8}>
 							<div>
-								<Avatar alt="Chloe" src={ChloeAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Chloe');}}
+								<Avatar alt="Chloe" src={questionAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Chloe');}}
 								onMouseEnter={() => sayHello('Chloe')} onMouseLeave={() => sayHello()}/> Chloe
 							</div>		
 							<div>
@@ -107,7 +107,7 @@ const Home = () => {
 								onMouseEnter={() => sayHello('TJin')} onMouseLeave={() => sayHello()}/> TJin
 							</div>
 							<div>
-								<Avatar alt="Joe Sun" src={JoeSAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Joe Sun');}}
+								<Avatar alt="Joe Sun" src={questionAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {sayHello('Joe Sun');}}
 								onMouseEnter={() => sayHello('Joe Sun')} onMouseLeave={() => sayHello()}/> Joe Sun
 							</div>			
 						</Stack>
