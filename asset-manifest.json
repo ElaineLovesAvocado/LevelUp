@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/LevelUp/static/css/main.27032788.css",
-    "main.js": "/LevelUp/static/js/main.57e2eaa2.js",
+    "main.js": "/LevelUp/static/js/main.56fa92fc.js",
     "static/js/787.6a4e74f5.chunk.js": "/LevelUp/static/js/787.6a4e74f5.chunk.js",
     "static/media/Chloe_season2.gif": "/LevelUp/static/media/Chloe_season2.9528a5e3345b433494c0.gif",
     "static/media/TJin.gif": "/LevelUp/static/media/TJin.e42fcdef075e5feeddd6.gif",
     "static/media/JoeSun_season2.gif": "/LevelUp/static/media/JoeSun_season2.5426066b5fe8f592bcc9.gif",
-    "static/media/JoeS.gif": "/LevelUp/static/media/JoeS.58f52bffdba9200237d7.gif",
+    "static/media/joeZ.gif": "/LevelUp/static/media/joeZ.59cc0a18b98c8f43b833.gif",
+    "static/media/JoeS.gif": "/LevelUp/static/media/JoeS.720331610e727a2340b8.gif",
+    "static/media/chloe.gif": "/LevelUp/static/media/chloe.64f9be06404ff9b145c3.gif",
     "static/media/Elaine.gif": "/LevelUp/static/media/Elaine.5ee3bf11e43aaf429569.gif",
     "static/media/Linyi.gif": "/LevelUp/static/media/Linyi.e5445475551838651c7e.gif",
     "static/media/JoeZ.gif": "/LevelUp/static/media/JoeZ.21de1516c8c3c7fec672.gif",
@@ -25,14 +27,13 @@
     "static/media/Linyi.png": "/LevelUp/static/media/Linyi.6363610fcb785b4df141.png",
     "static/media/Jack.png": "/LevelUp/static/media/Jack.129932b9270f8bcd4582.png",
     "static/media/JoeZ.png": "/LevelUp/static/media/JoeZ.4c9ed55818bb8442b953.png",
-    "static/media/pokemonEgg.gif": "/LevelUp/static/media/pokemonEgg.85151fb5e424e2ad7449.gif",
     "index.html": "/LevelUp/index.html",
     "main.27032788.css.map": "/LevelUp/static/css/main.27032788.css.map",
-    "main.57e2eaa2.js.map": "/LevelUp/static/js/main.57e2eaa2.js.map",
+    "main.56fa92fc.js.map": "/LevelUp/static/js/main.56fa92fc.js.map",
     "787.6a4e74f5.chunk.js.map": "/LevelUp/static/js/787.6a4e74f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27032788.css",
-    "static/js/main.57e2eaa2.js"
+    "static/js/main.56fa92fc.js"
   ]
 }
