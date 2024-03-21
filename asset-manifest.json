@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LevelUp/static/css/main.27032788.css",
-    "main.js": "/LevelUp/static/js/main.56fa92fc.js",
+    "main.js": "/LevelUp/static/js/main.ad8f2d94.js",
     "static/js/787.6a4e74f5.chunk.js": "/LevelUp/static/js/787.6a4e74f5.chunk.js",
     "static/media/Chloe_season2.gif": "/LevelUp/static/media/Chloe_season2.9528a5e3345b433494c0.gif",
     "static/media/TJin.gif": "/LevelUp/static/media/TJin.e42fcdef075e5feeddd6.gif",
@@ -29,11 +29,11 @@
     "static/media/JoeZ.png": "/LevelUp/static/media/JoeZ.4c9ed55818bb8442b953.png",
     "index.html": "/LevelUp/index.html",
     "main.27032788.css.map": "/LevelUp/static/css/main.27032788.css.map",
-    "main.56fa92fc.js.map": "/LevelUp/static/js/main.56fa92fc.js.map",
+    "main.ad8f2d94.js.map": "/LevelUp/static/js/main.ad8f2d94.js.map",
     "787.6a4e74f5.chunk.js.map": "/LevelUp/static/js/787.6a4e74f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27032788.css",
-    "static/js/main.56fa92fc.js"
+    "static/js/main.ad8f2d94.js"
   ]
 }
