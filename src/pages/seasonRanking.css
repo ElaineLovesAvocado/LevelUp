@@ -6,6 +6,19 @@
     font-size: small;
 }
 
+.AvatarGroupColumn{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: Monospace;
+    font-size: 12px;
+}
+
+.avatar1{
+    padding-right: 30px;
+
+}
+
 
 @keyframes avatarAnimation {
     from {

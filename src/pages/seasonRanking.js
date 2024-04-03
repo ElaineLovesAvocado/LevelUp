@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Stack from '@mui/material/Stack';
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -28,6 +29,14 @@ import { TypeAnimation } from 'react-type-animation';
 import season2_rank1 from '../images/Season2/JoeSun_season2.gif';
 import season2_rank2 from '../images/Season2/JoeZhou_season2.gif';
 import season2_rank3 from '../images/Season2/Chloe_season2.gif'
+//Season 3
+import ElaineAvatar3 from '../images/Season3/ElaineEvolved.gif'
+import JoeZAvatar3 from '../images/Season3/JoeZ2.gif'
+import JoeSAvatar3 from '../images/Season3/JoeSEvolved.gif'
+import ChloeAvatar3 from '../images/Season3/chloeEvolved.gif'
+import JackAvatar3 from '../images/Season3/JackEvolved.gif'
+import LinyiAvatar3 from '../images/Season3/LinyiEvolved.gif'
+import TJinAvatar3 from '../images/Season3/TJinEvolved.gif'
 
 import './seasonRanking.css'
 
@@ -120,12 +129,8 @@ export default function SeasonRanking() {
 					</div>
           <div className='questionIcon'>
             <div><ArrowDownwardIcon sx={{ fontSize: 55 }} /></div>
-            {/* <div><HelpOutlineOutlinedIcon sx={{ fontSize: 55 }}/></div> */}
           </div>
           <div className="words">
-            {/* <p>
-              After one month of hard battles, Eevee and psyduck have both evolved!!!
-            </p> */}
             <TypeAnimation
                 sequence={[
                   'After one month of hard battles, Eevee and psyduck have both evolved!!!',
@@ -218,13 +223,59 @@ export default function SeasonRanking() {
           
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        Coming soon ...
-
-        <div className="Podium">
-            <div id='Podium'>
-              <img src={Podium} alt="Podium" loading="lazy" />
-            </div>
+          <div className='SeasonTitle'>
+            Season 3 Final Ranking
           </div>
+          <div className="words">
+            <TypeAnimation
+                sequence={[
+                  'Season 3 passed fast and came to an end, Grimer used evil posion (贴牌) and landed on No.1 whereas all other pokemons fought hard and landed on No.2. All pokemons have evolved, what a surprise!!!',
+                  () => {
+                  },
+                ]}
+                wrapper="span"
+                cursor={true}
+                repeat={0}
+                speed={80}
+                style={{ display: 'inline-block' }}
+				    />
+          </div>
+
+          <div className='AvatarGroupColumn'>
+            <div className="avatar1">
+              <Stack direction="Column" spacing={10}>
+              <div id='JoeZ'>						
+                  <Avatar alt="Joe Zhou" src={JoeZAvatar3} variant="square" sx={{ width: 130, height: 70 }} /> Joe Zhou No.1 30					
+                </div>	
+                <div id="linyi">
+                  <Avatar alt="Linyi" src={LinyiAvatar3} variant="square" sx={{ width: 80, height: 80 }} /> Linyi No.2 20
+                </div>
+                <div id="Jack">
+                  <Avatar alt="Jack" src={JackAvatar3} variant="square" sx={{ width: 80, height: 80 }}  /> Jack No2. 20
+                </div>
+                <div id="Elaine">
+                  <Avatar alt="Elaine" src={ElaineAvatar3} variant="square" sx={{ width: 120, height: 80 }} /> Elaine No2. 20
+                </div>					
+              </Stack>
+              
+            </div>
+            <br/>
+
+            <div className="avatar2">
+              <Stack direction="Column" spacing={10}>
+                <div>
+                  <Avatar alt="Chloe" src={ChloeAvatar3} variant="square" sx={{ width: 80, height: 90 }} /> Chloe No2. 20
+                </div>		
+                <div>
+                  <Avatar alt="TJin" src={TJinAvatar3} variant="square" sx={{ width: 90, height: 80 }} /> TJin No2. 20
+                </div>
+                <div>
+                  <Avatar alt="Joe Sun" src={JoeSAvatar3} variant="square" sx={{ width: 90, height: 80 }} /> Joe Sun No2. 20
+                </div>			
+              </Stack>
+            </div>
+					</div>
+        
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
         Coming soon ...
