@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/LevelUp/static/css/main.0d74710e.css",
-    "main.js": "/LevelUp/static/js/main.29fe8937.js",
+    "main.js": "/LevelUp/static/js/main.b9da1633.js",
     "static/js/787.6a4e74f5.chunk.js": "/LevelUp/static/js/787.6a4e74f5.chunk.js",
     "static/media/Linyi.gif": "/LevelUp/static/media/Linyi.e5445475551838651c7e.gif",
     "static/media/chloeEvolved.gif": "/LevelUp/static/media/chloeEvolved.ca0e15aa24e539f7fc15.gif",
     "static/media/JackEvolved.gif": "/LevelUp/static/media/JackEvolved.5e7065f4d794c9da3e39.gif",
     "static/media/Chloe_season2.gif": "/LevelUp/static/media/Chloe_season2.9528a5e3345b433494c0.gif",
     "static/media/JoeSEvolved.gif": "/LevelUp/static/media/JoeSEvolved.11b729f2a1dfa9bb033c.gif",
-    "static/media/TJin.gif": "/LevelUp/static/media/TJin.e42fcdef075e5feeddd6.gif",
+    "static/media/TJin.gif": "/LevelUp/static/media/TJin.e528669fd6e47976456a.gif",
     "static/media/JoeSun_season2.gif": "/LevelUp/static/media/JoeSun_season2.5426066b5fe8f592bcc9.gif",
     "static/media/TJinEvolved.gif": "/LevelUp/static/media/TJinEvolved.6ece5e3366f8aee9fbc9.gif",
     "static/media/JoeS.gif": "/LevelUp/static/media/JoeS.2a816af426b971137975.gif",
@@ -35,11 +35,11 @@
     "static/media/JoeZ2.gif": "/LevelUp/static/media/JoeZ2.0f6bd0145c129b42743f.gif",
     "index.html": "/LevelUp/index.html",
     "main.0d74710e.css.map": "/LevelUp/static/css/main.0d74710e.css.map",
-    "main.29fe8937.js.map": "/LevelUp/static/js/main.29fe8937.js.map",
+    "main.b9da1633.js.map": "/LevelUp/static/js/main.b9da1633.js.map",
     "787.6a4e74f5.chunk.js.map": "/LevelUp/static/js/787.6a4e74f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d74710e.css",
-    "static/js/main.29fe8937.js"
+    "static/js/main.b9da1633.js"
   ]
 }
