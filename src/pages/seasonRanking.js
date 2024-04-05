@@ -229,7 +229,7 @@ export default function SeasonRanking() {
           <div className="words">
             <TypeAnimation
                 sequence={[
-                  'Season 3 passed fast and came to an end, Grimer used evil posion (贴牌) and landed on No.1 whereas all other pokemons fought hard and landed on No.2. All pokemons have evolved, what a surprise!!!',
+                  'Season 3 has passed fast, Grimer used evil posion (贴牌) and landed on No.1 spot whereas all other pokemons fought hard and sercured on No.2. Every pokemon has evolved in this season, what a surprise!!!',
                   () => {
                   },
                 ]}

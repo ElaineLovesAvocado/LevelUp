@@ -1,30 +1,32 @@
 .body {
-    /*background-image: url("../images/pokemonWallPaper.jpeg"); /* The image used */
+    /*background-image: url('../images/Season4/background.JPG'); /* The image used
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
 
 .intro {
+    padding-top: -10px;
     display: flex;
     justify-content: center;
-    padding: 5px;
     font-family: Monospace;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .welcomeMsg{
-    padding: 5px;
     font-family: Monospace;
-    font-size: 18px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
 }
 
 .personalMsg{
-    padding: 5px;
     font-family: Monospace;
-    font-size: 18px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
 }
@@ -32,9 +34,9 @@
 .players {
     display: flex;
     justify-content: center;
-    padding: 15px;
     font-family: Monospace;
-    font-size: 18px;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 }
 
 

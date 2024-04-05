@@ -3,7 +3,8 @@
     justify-content: center;
     flex: 0 1 auto;
     padding: 5px;
-    font-size: small;
+    font-size: 10px;
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 }
 
 .AvatarGroupColumn{
@@ -11,7 +12,8 @@
     justify-content: center;
     padding: 15px;
     font-family: Monospace;
-    font-size: 12px;
+    font-size: 13px;
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 }
 
 .avatar1{
@@ -47,10 +49,10 @@
     display: flex;
     justify-content: center;
     font-family: monospace;
-    font-size: 12px;
+    font-size: 13px;
     padding-left: 3%;
     padding-right: 3%;
-    margin-top: 3%;
+    margin-top: 1%;
     text-shadow: 1px 1px 2px #cebebe;
 }
 
