@@ -1,6 +1,8 @@
 import React from "react";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
 import './index.css'
+import {  Link } from "react-router-dom";
+
 
 const Navbar = () => {
 	return (
@@ -8,36 +10,39 @@ const Navbar = () => {
 		<nav>
 			<ul>
 				<li>
-					<a href="/home">Home</a>
+					<Link to="/home">Home</Link>
+				</li>
+				{/* <li>
+					<Link to="/records">records</Link>
+				</li> */}
+				{/* <li>
+					<Link to="/profile">Profile</Link>
+				</li> */}
+				<li>
+					<Link to="/ranking">Ranking</Link>
 				</li>
 				<li>
-					<a href="/records">Records</a>
-				</li>
-				<li>
-					<a href="/ranking">Ranking</a>
-				</li>
-				<li>
-					<a href="/seasonRanking">SeasonRanking</a>
+					<Link to="/seasonRanking">Season</Link>
 				</li>
 			</ul>
 		</nav>
 		
-			// <Nav>
-			// 	<NavMenu>
-			// 		<NavLink to="/home" activeStyle>
-			// 			Home
-			// 		</NavLink>
-			// 		<NavLink to="/records" activeStyle>
-			// 			Records
-			// 		</NavLink>
-			// 		<NavLink to="/ranking" activeStyle>
-			// 			Ranking
-			// 		</NavLink>
-			// 		<NavLink to="/seasonRanking" activeStyle>
-			// 			Season
-			// 		</NavLink>
-			// 	</NavMenu>
-			// </Nav>
+		// <Nav class = 'nav'>
+		// 	<NavMenu class = 'ul'>
+		// 		<NavLink to="/home" class = 'li' >
+		// 			Home
+		// 		</NavLink>
+		// 		<NavLink to="/records" class = 'li' >
+		// 			Records
+		// 		</NavLink>
+		// 		<NavLink to="/ranking" class = 'li' >
+		// 			Ranking
+		// 		</NavLink>
+		// 		<NavLink to="/seasonRanking" class = 'li' >
+		// 			Season
+		// 		</NavLink>
+		// 	</NavMenu>
+		// </Nav>
 		
 	);
 };

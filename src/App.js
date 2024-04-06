@@ -17,22 +17,22 @@ function App() {
 	return (
 		<Router>
 			<Navbar />
-			<Routes>
-				<Route path="/LevelUp/" element={<Home />} />
-				<Route path="/home" element={<Home />} />
-				<Route
-					path="/records"
-					element={<Records />}
-				/>
-				<Route
-					path="/ranking"
-					element={<Ranking />}
-				/>
-				<Route
-					path="/seasonRanking"
-					element={<SeasonRanking />}
-				/>
-			</Routes>
+				<Routes>
+					<Route path="/LevelUp/" element={<Home />} />
+					<Route path="/home" element={<Home />} />
+					{/* <Route
+						path="/records"
+						element={<Records />}
+					/> */}
+					<Route
+						path="/ranking"
+						element={<Ranking />}
+					/>
+					<Route
+						path="/seasonRanking"
+						element={<SeasonRanking />}
+					/>
+				</Routes>
 		</Router>
 	);
 }

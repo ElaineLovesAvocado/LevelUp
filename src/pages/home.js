@@ -3,11 +3,11 @@ import Stack from '@mui/material/Stack';
 import Avatar from '@mui/material/Avatar';
 import ElaineAvatar from '../images/Season4/Elaine.gif'
 import JoeZAvatar from '../images/Season4/JoeZ.gif'
-import JoeSAvatar from '../images/Season4/JoeS.gif'
+import JoeSAvatar from '../images/Season4/JoeS2.gif'
 import ChloeAvatar from '../images/Season4/Chloe.gif'
 import JackAvatar from '../images/Season4/Jack.gif'
 import LinyiAvatar from '../images/Season4/Linyi.gif'
-import TJinAvatar from '../images/TJin.gif'
+import TJinAvatar from '../images/Season4/TJin.gif'
 import questionAvatar from '../images/unknownPokemon.png'
 import { TypeAnimation } from 'react-type-animation';
 import './home.css'
@@ -75,19 +75,19 @@ const Home = () => {
 					<div className="avatar1">
 						<Stack direction="Column" spacing={8}>
 							<div id="linyi">
-								<Avatar alt="Linyi" src={LinyiAvatar} variant="square" sx={{ width: 65, height: 80 }} onClick={() => {sayHello('Linyi');} } 
+								<Avatar alt="Linyi" src={LinyiAvatar} variant="square" sx={{ width: 65, height: 90 }} onClick={() => {sayHello('Linyi');} } 
 								onMouseEnter={() => sayHello('Linyi')} onMouseLeave={() => sayHello()} /> Linyi
 							</div>
 							<div id="Jack">
-								<Avatar alt="Jack" src={JackAvatar} variant="round" sx={{ width: 100, height: 100 }}  onClick={() => {sayHello('Jack');}} 
+								<Avatar alt="Jack" src={JackAvatar} variant="square" sx={{ width: 70, height: 85 }}  onClick={() => {sayHello('Jack');}} 
 								onMouseEnter={() => sayHello('Jack')} onMouseLeave={() => sayHello()}/> Jack
 							</div>
 							<div id="Elaine">
-								<Avatar alt="Elaine" src={ElaineAvatar} variant="round" sx={{ width: 60, height: 120 }} onClick={() => {sayHello('Elaine');}}
+								<Avatar alt="Elaine" src={ElaineAvatar} variant="square" sx={{ width: 60, height: 110 }} onClick={() => {sayHello('Elaine');}}
 								onMouseEnter={() => sayHello('Elaine')} onMouseLeave={() => sayHello()}/> Elaine
 							</div>	
 							<div id='JoeZ'>						
-								<Avatar alt="Joe Zhou" src={JoeZAvatar} variant="round" sx={{ width: 98, height: 95 }} onClick={() => {sayHello('Joe Zhou');}}
+								<Avatar alt="Joe Zhou" src={JoeZAvatar} variant="square" sx={{ width: 90, height: 90 }} onClick={() => {sayHello('Joe Zhou');}}
 								onMouseEnter={() => sayHello('Joe Zhou')} onMouseLeave={() => sayHello()}/> Joe Zhou					
 							</div>					
 						</Stack>
@@ -102,11 +102,11 @@ const Home = () => {
 								onMouseEnter={() => sayHello('Chloe')} onMouseLeave={() => sayHello()}/> Chloe
 							</div>		
 							<div>
-								<Avatar alt="TJin" src={TJinAvatar} variant="round" sx={{ width: 80, height: 80 }} onClick={() => {sayHello('TJin');}}
+								<Avatar alt="TJin" src={TJinAvatar} variant="square" sx={{ width: 110, height: 80 }} onClick={() => {sayHello('TJin');}}
 								onMouseEnter={() => sayHello('TJin')} onMouseLeave={() => sayHello()}/> TJin
 							</div>
 							<div>
-								<Avatar alt="Joe Sun" src={JoeSAvatar} variant="square" sx={{ width: 100, height: 80 }} onClick={() => {sayHello('Joe Sun');}}
+								<Avatar alt="Joe Sun" src={JoeSAvatar} variant="square" sx={{ width: 75, height: 85 }} onClick={() => {sayHello('Joe Sun');}}
 								onMouseEnter={() => sayHello('Joe Sun')} onMouseLeave={() => sayHello()}/> Joe Sun
 							</div>			
 						</Stack>

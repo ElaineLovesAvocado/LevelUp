@@ -131,17 +131,7 @@ export default function SeasonRanking() {
             <div><ArrowDownwardIcon sx={{ fontSize: 55 }} /></div>
           </div>
           <div className="words">
-            <TypeAnimation
-                sequence={[
-                  'After one month of hard battles, Eevee and psyduck have both evolved!!!',
-                  () => {
-                  },
-                ]}
-                wrapper="span"
-                cursor={true}
-                repeat={0}
-                style={{ display: 'inline-block' }}
-				    />
+              After one month of hard battles, Eevee and psyduck have both evolved!!!
           </div>
           <div className="evolution">
             <div id='sylveon'>
@@ -187,22 +177,8 @@ export default function SeasonRanking() {
 						</div>			
 					</div>
           <div className="words">
-            <TypeAnimation
-                sequence={[
-                  'As season 2 drew to a close, Dratini, Meowth and Alolan Vulpix secured the top 3 spots and each has undergone remarkable evolution! However, heart sank for Abra, who narrowly missed the mark, landing at No.4 and failing to evolve. On a brighter note, Squirtle showcased remarkable growth, mastering a special ability to catch 三连拖 and soaring to No.5. Meanwhile, Togepi and Jigglypuff, beloved for their adorable charm, found themselves preoccupied with exploration, study and work, resulting in a lack of sleep and lower rankings, they promised to bounce back stronger in next season!!!',
-                  () => {
-                  },
-                ]}
-                wrapper="span"
-                cursor={true}
-                repeat={0}
-                speed={80}
-                style={{ display: 'inline-block' }}
-				    />
+            As season 2 drew to a close, Dratini, Meowth and Alolan Vulpix secured the top 3 spots and each has undergone remarkable evolution! However, heart sank for Abra, who narrowly missed the mark, landing at No.4 and failing to evolve. On a brighter note, Squirtle showcased remarkable growth, mastering a special ability to catch 三连拖 and soaring to No.5. Meanwhile, Togepi and Jigglypuff, beloved for their adorable charm, found themselves preoccupied with exploration, study and work, resulting in a lack of sleep and lower rankings, they promised to bounce back stronger in next season!!!            
           </div>
-          {/* <div className='questionIcon'>
-            <div><ArrowDownwardIcon sx={{ fontSize: 30 }} /></div>
-          </div> */}
           <div className='Season2Ranking'>
             <div id='season2Rank2'>
               <img src={season2_rank2} alt="Rank2" loading="lazy" />
@@ -227,18 +203,7 @@ export default function SeasonRanking() {
             Season 3 Final Ranking
           </div>
           <div className="words">
-            <TypeAnimation
-                sequence={[
-                  'Season 3 has passed fast, Grimer used evil posion (贴牌) and landed on No.1 spot whereas all other pokemons fought hard and sercured on No.2. Every pokemon has evolved in this season, what a surprise!!!',
-                  () => {
-                  },
-                ]}
-                wrapper="span"
-                cursor={true}
-                repeat={0}
-                speed={80}
-                style={{ display: 'inline-block' }}
-				    />
+            Season 3 has passed fast, Grimer used evil posion (贴牌) and landed on No.1 spot whereas all other pokemons fought hard and sercured on No.2. Every pokemon has evolved in this season, what a surprise!!!          
           </div>
 
           <div className='AvatarGroupColumn'>
