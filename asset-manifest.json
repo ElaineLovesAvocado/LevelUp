@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LevelUp/static/css/main.dc876b37.css",
-    "main.js": "/LevelUp/static/js/main.8d7b7746.js",
+    "main.js": "/LevelUp/static/js/main.bd5c2a5c.js",
     "static/js/787.6a4e74f5.chunk.js": "/LevelUp/static/js/787.6a4e74f5.chunk.js",
     "static/media/Linyi.gif": "/LevelUp/static/media/Linyi.e5445475551838651c7e.gif",
     "static/media/chloeEvolved.gif": "/LevelUp/static/media/chloeEvolved.ca0e15aa24e539f7fc15.gif",
@@ -36,11 +36,11 @@
     "static/media/JoeZ2.gif": "/LevelUp/static/media/JoeZ2.0f6bd0145c129b42743f.gif",
     "index.html": "/LevelUp/index.html",
     "main.dc876b37.css.map": "/LevelUp/static/css/main.dc876b37.css.map",
-    "main.8d7b7746.js.map": "/LevelUp/static/js/main.8d7b7746.js.map",
+    "main.bd5c2a5c.js.map": "/LevelUp/static/js/main.bd5c2a5c.js.map",
     "787.6a4e74f5.chunk.js.map": "/LevelUp/static/js/787.6a4e74f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc876b37.css",
-    "static/js/main.8d7b7746.js"
+    "static/js/main.bd5c2a5c.js"
   ]
 }
