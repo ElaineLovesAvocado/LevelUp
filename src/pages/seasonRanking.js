@@ -75,7 +75,7 @@ function a11yProps(index) {
 }
 
 export default function SeasonRanking() {
-  const [value, setValue] = React.useState(2);
+  const [value, setValue] = React.useState(7);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

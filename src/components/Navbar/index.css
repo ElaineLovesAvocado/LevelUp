@@ -3,7 +3,7 @@
 html {
   height:100%;
   /* background-color:  lightgrey; */
-  background-image: url('../../images/Season4/pokemonBackground.jpeg'); /* The image used
+  /*background-image: url('../../images/Season4/pokemonBackground.jpeg'); /* The image used
   background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);*/
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; 
@@ -28,7 +28,7 @@ nav ul li {
 
 nav ul li a {
   padding: 18px;
-  font-family: "Open Sans";
+  font-family: "Caveat", cursive;
   text-transform:uppercase;
   color: rgba(0, 35, 122, 0.5);
   font-size: 15px;

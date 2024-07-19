@@ -11,7 +11,9 @@ import Home from "./pages/home";
 import Ranking from "./pages/ranking";
 import Records from "./pages/records";
 import SeasonRanking from "./pages/seasonRanking";
+import Score from "./pages/score"
 import withSplashScreen from "./components/Navbar/withSplashScreen";
+
 
 function App() {
 	return (
@@ -31,6 +33,10 @@ function App() {
 					<Route
 						path="/seasonRanking"
 						element={<SeasonRanking />}
+					/>
+					<Route
+						path="/score"
+						element={<Score />}
 					/>
 				</Routes>
 		</Router>

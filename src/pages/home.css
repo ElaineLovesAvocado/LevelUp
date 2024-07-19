@@ -1,44 +1,72 @@
 .body {
     /*background-image: url('../images/Season4/background.JPG'); /* The image used
     background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    /* background-repeat: no-repeat; /* Do not repeat the image */
+    /*background-size: cover; /* Resize the background image to cover the entire container */
     color: black;
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */  
+    font-family: "Caveat", cursive; 
   }
 
 .intro {
-    padding-top: -10px;
     display: flex;
     justify-content: center;
-    font-family: Monospace;
     font-size: 15px;
 }
 
 .welcomeMsg{
-    font-family: Monospace;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
+
 }
 
 .personalMsg{
-    font-family: Monospace;
-    font-size: 15px;
+    font-size: 12px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-family: "ZCOOL XiaoWei", sans-serif;
 }
 
 .players {
-    display: flex;
+    flex-direction: row;
     justify-content: center;
-    font-family: Monospace;
-    font-size: 15px;
+    font-size: 12px;
     text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+
 }
 
+.playerContainer{
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .playerStatus{
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+.avatarContainer {
+    font-family: "Caveat", cursive;
+    font-size: 16px;
+
+    .avatarIcon{
+        float: left
+    }
+    .avatarStatus{
+        margin-top: 20px
+
+    }
+}
 
 .avatar1 div:hover{
     transform: scale(1.1);
@@ -49,10 +77,42 @@
 }
 
 
-#intro-image-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+@media only screen and (max-width: 480px) {
+    .players {
+        flex-direction: column;
+        justify-content: center;
+        font-size: 12px;
+        text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+    }
+
+
+
+    .avatarContainer {
+        font-family: "Caveat", cursive;
+        font-size: 16px;
+    
+        .avatarIcon{
+            float: left
+        }
+        .avatarStatus{
+            margin-top: 20px
+    
+        }
+    }
 }
+
+@keyframes circleMove { 
+    0% { 
+        transform: rotate(0deg)  
+            translateX(100px) rotate(0deg); 
+    } 
+
+    100% { 
+        transform: rotate(-360deg)  
+            translateX(100px) rotate(360deg); 
+    } 
+} 
+
+
+
 

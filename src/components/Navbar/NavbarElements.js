@@ -19,7 +19,7 @@ export const NavLink = styled(Link)`
 
 	&.active {
 		padding: 15px;
-		font-family: "Open Sans";
+		font-family: "Caveat", cursive;
 		text-transform:uppercase;
 		color: rgba(0, 35, 122, 0.5);
 		font-size: 15px;

@@ -21,28 +21,14 @@ const Navbar = () => {
 				<li>
 					<Link to="/ranking">Ranking</Link>
 				</li>
-				<li>
+				{/* <li>
 					<Link to="/seasonRanking">Season</Link>
+				</li> */}
+				<li>
+					<Link to="/score">Points</Link>
 				</li>
 			</ul>
 		</nav>
-		
-		// <Nav class = 'nav'>
-		// 	<NavMenu class = 'ul'>
-		// 		<NavLink to="/home" class = 'li' >
-		// 			Home
-		// 		</NavLink>
-		// 		<NavLink to="/records" class = 'li' >
-		// 			Records
-		// 		</NavLink>
-		// 		<NavLink to="/ranking" class = 'li' >
-		// 			Ranking
-		// 		</NavLink>
-		// 		<NavLink to="/seasonRanking" class = 'li' >
-		// 			Season
-		// 		</NavLink>
-		// 	</NavMenu>
-		// </Nav>
 		
 	);
 };

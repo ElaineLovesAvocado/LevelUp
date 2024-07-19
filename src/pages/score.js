@@ -23,26 +23,22 @@ import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
 import './ranking.css'
 
-function createData(id, name, totalScore, numFirst, numSecond, numSuper, numSuper2) {
+function createData(id, name, totalScore) {
   return {
     id,
     name,
-    totalScore,
-    numFirst,
-    numSecond,
-    numSuper,
-    numSuper2
+    totalScore
   };
 }
 
 const rows = [
-  createData(1, 'Jack', 5, 0, 1, 0, 0),
-  createData(2, 'Linyi', 0, 0, 0, 0, 0),
-  createData(3, 'Joe Zhou', 20, 2, 0, 0, 0),
-  createData(4, 'Elaine', 5, 0, 1, 0, 0),
-  createData(5, 'Joe Sun', 0, 0, 0, 0, 0),
-  createData(6, 'Chloe', 0, 0, 0, 0, 0),
-  createData(7, 'TJin', 0, 0, 0, 0, 0),
+  createData(1, 'Jack', 23),
+  createData(2, 'Linyi', 22),
+  createData(3, 'Joe Zhou', 30),
+  createData(4, 'Elaine', 24),
+  createData(5, 'Joe Sun', 19),
+  createData(6, 'Chloe', 15),
+  createData(7, 'TJin', 13),
 ];
 
 function descendingComparator(a, b, orderBy) {
@@ -88,31 +84,7 @@ const headCells = [
     id: 'totalScore',
     numeric: true,
     disablePadding: false,
-    label: 'Total score',
-  },
-  {
-    id: 'numFrist',
-    numeric: true,
-    disablePadding: false,
-    label: '# of Fisrt Place',
-  },
-  {
-    id: 'numSecond',
-    numeric: true,
-    disablePadding: false,
-    label: '# of Second Place',
-  },
-  {
-    id: 'numSuper',
-    numeric: true,
-    disablePadding: false,
-    label: '# 庄家大光',
-  },
-  {
-    id: 'numSuper2',
-    numeric: true,
-    disablePadding: false,
-    label: '# 庄上大光',
+    label: 'Total Points',
   }
 ];
 
@@ -161,7 +133,6 @@ function EnhancedTableHead(props) {
       </TableRow>
     </TableHead>
   );
-  
 }
 
 EnhancedTableHead.propTypes = {
@@ -203,13 +174,13 @@ function EnhancedTableToolbar(props) {
           id="tableTitle"
           component="div"
         >
-          <div class="rules">
+        <div class='rules'>
             Rules:
-            1st place+10；
-            2nd place+5；
-            大光(庄家)+15；
-            大光(庄上)+10；
-          </div>
+            2-10 = 2-10; 
+            J,Q,K = 11,12,13;
+            A = 14;
+            A+(庄上) = 15;
+        </div>
         </Typography>
       )}
 
@@ -234,7 +205,7 @@ EnhancedTableToolbar.propTypes = {
   numSelected: PropTypes.number.isRequired,
 };
 
-export default function Ranking() {
+export default function Score() {
   const [order, setOrder] = React.useState('desc');
   const [orderBy, setOrderBy] = React.useState('totalScore');
   const [selected, setSelected] = React.useState([]);
@@ -305,12 +276,12 @@ export default function Ranking() {
   );
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%' }} >
       <Paper sx={{ width: '100%', mb: 2 }}>
         <EnhancedTableToolbar numSelected={selected.length} />
         <TableContainer>
           <Table
-            sx={{ minWidth: 750 }}
+            sx={{ minWidth: 400 }}
             aria-labelledby="tableTitle"
             size={dense ? 'small' : 'medium'}
           >
@@ -356,10 +327,6 @@ export default function Ranking() {
                       {row.name}
                     </TableCell>
                     <TableCell align="right">{row.totalScore}</TableCell>
-                    <TableCell align="right">{row.numFirst}</TableCell>
-                    <TableCell align="right">{row.numSecond}</TableCell>
-                    <TableCell align="right">{row.numSuper}</TableCell>
-                    <TableCell align="right">{row.numSuper2}</TableCell>
                   </TableRow>
                 );
               })}
