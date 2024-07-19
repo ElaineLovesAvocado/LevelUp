@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/LevelUp/static/css/main.dc876b37.css",
-    "main.js": "/LevelUp/static/js/main.bd5c2a5c.js",
+    "main.css": "/LevelUp/static/css/main.24df5c28.css",
+    "main.js": "/LevelUp/static/js/main.e966e389.js",
     "static/js/787.6a4e74f5.chunk.js": "/LevelUp/static/js/787.6a4e74f5.chunk.js",
-    "static/media/Linyi.gif": "/LevelUp/static/media/Linyi.e5445475551838651c7e.gif",
     "static/media/chloeEvolved.gif": "/LevelUp/static/media/chloeEvolved.ca0e15aa24e539f7fc15.gif",
     "static/media/JackEvolved.gif": "/LevelUp/static/media/JackEvolved.5e7065f4d794c9da3e39.gif",
     "static/media/Chloe_season2.gif": "/LevelUp/static/media/Chloe_season2.9528a5e3345b433494c0.gif",
@@ -11,13 +10,13 @@
     "static/media/TJin.gif": "/LevelUp/static/media/TJin.e528669fd6e47976456a.gif",
     "static/media/JoeSun_season2.gif": "/LevelUp/static/media/JoeSun_season2.5426066b5fe8f592bcc9.gif",
     "static/media/TJinEvolved.gif": "/LevelUp/static/media/TJinEvolved.6ece5e3366f8aee9fbc9.gif",
-    "static/media/JoeS.gif": "/LevelUp/static/media/JoeS.58f52bffdba9200237d7.gif",
     "static/media/LinyiEvolved.gif": "/LevelUp/static/media/LinyiEvolved.3cd5ef49201e19a78e7d.gif",
-    "static/media/Elaine.gif": "/LevelUp/static/media/Elaine.78df0dd54f1bc2b47664.gif",
-    "static/media/JoeS2.gif": "/LevelUp/static/media/JoeS2.48f618556f6e44a8bffb.gif",
+    "static/media/Elaine.gif": "/LevelUp/static/media/Elaine.5ee3bf11e43aaf429569.gif",
+    "static/media/Linyi.gif": "/LevelUp/static/media/Linyi.e5445475551838651c7e.gif",
+    "static/media/JoeS.gif": "/LevelUp/static/media/JoeS.c2c1d756c8cec88b0e05.gif",
     "static/media/JoeZ.gif": "/LevelUp/static/media/JoeZ.21de1516c8c3c7fec672.gif",
-    "static/media/Jack.gif": "/LevelUp/static/media/Jack.1f219db10a088b84330e.gif",
     "static/media/Chloe.gif": "/LevelUp/static/media/Chloe.1b549dc7c3406b7c6e14.gif",
+    "static/media/Jack.gif": "/LevelUp/static/media/Jack.1f219db10a088b84330e.gif",
     "static/media/podium.png": "/LevelUp/static/media/podium.9799120042d25b0e2ace.png",
     "static/media/JoeZhou_season2.gif": "/LevelUp/static/media/JoeZhou_season2.26036fdb918bfd67cd3c.gif",
     "static/media/ElaineEvolved.gif": "/LevelUp/static/media/ElaineEvolved.9e6fd58f767867c9b5c7.gif",
@@ -32,15 +31,14 @@
     "static/media/Linyi.png": "/LevelUp/static/media/Linyi.6363610fcb785b4df141.png",
     "static/media/Jack.png": "/LevelUp/static/media/Jack.129932b9270f8bcd4582.png",
     "static/media/JoeZ.png": "/LevelUp/static/media/JoeZ.4c9ed55818bb8442b953.png",
-    "static/media/pokemonBackground.jpeg": "/LevelUp/static/media/pokemonBackground.81ce94bf2aba209b11fc.jpeg",
     "static/media/JoeZ2.gif": "/LevelUp/static/media/JoeZ2.0f6bd0145c129b42743f.gif",
     "index.html": "/LevelUp/index.html",
-    "main.dc876b37.css.map": "/LevelUp/static/css/main.dc876b37.css.map",
-    "main.bd5c2a5c.js.map": "/LevelUp/static/js/main.bd5c2a5c.js.map",
+    "main.24df5c28.css.map": "/LevelUp/static/css/main.24df5c28.css.map",
+    "main.e966e389.js.map": "/LevelUp/static/js/main.e966e389.js.map",
     "787.6a4e74f5.chunk.js.map": "/LevelUp/static/js/787.6a4e74f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc876b37.css",
-    "static/js/main.bd5c2a5c.js"
+    "static/css/main.24df5c28.css",
+    "static/js/main.e966e389.js"
   ]
 }
