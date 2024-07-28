@@ -18,14 +18,14 @@ const Navbar = () => {
 				{/* <li>
 					<Link to="/profile">Profile</Link>
 				</li> */}
-				<li>
+				{/* <li>
 					<Link to="/ranking">Ranking</Link>
-				</li>
+				</li> */}
 				{/* <li>
 					<Link to="/seasonRanking">Season</Link>
 				</li> */}
 				<li>
-					<Link to="/score">Points</Link>
+					<Link to="/score">Ranking</Link>
 				</li>
 			</ul>
 		</nav>
