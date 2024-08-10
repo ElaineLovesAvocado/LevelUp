@@ -32,13 +32,13 @@ function createData(id, name, totalScore) {
 }
 
 const rows = [
-  createData(1, 'Jack', 40),
-  createData(2, 'Linyi', 41),
-  createData(3, 'Joe Zhou', 40),
-  createData(4, 'Elaine', 38),
-  createData(5, 'Joe Sun', 38),
-  createData(6, 'Chloe', 28),
-  createData(7, 'TJin', 30),
+  createData(1, 'Jack', 86),
+  createData(2, 'Linyi', 83),
+  createData(3, 'Joe Zhou', 84),
+  createData(4, 'Elaine', 67),
+  createData(5, 'Joe Sun', 97),
+  createData(6, 'Chloe', 68),
+  createData(7, 'TJin', 64),
 ];
 
 function descendingComparator(a, b, orderBy) {
