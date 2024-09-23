@@ -1,14 +1,7 @@
 .body {
-    /*background-image: url('../images/Season4/background.JPG'); /* The image used
-    background-position: center; /* Center the image */
-    /* background-repeat: no-repeat; /* Do not repeat the image */
-    /*background-size: cover; /* Resize the background image to cover the entire container */
     color: black;
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; */  
     font-family: "Caveat", cursive; 
-  }
+}
 
 .intro {
     display: flex;
@@ -16,103 +9,79 @@
     font-size: 15px;
 }
 
-.welcomeMsg{
+.personalMsg {
     font-size: 12px;
-    display: flex;
-    justify-content: center;
-
-}
-
-.personalMsg{
-    font-size: 12px;
-    padding-bottom: 10px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "ZCOOL XiaoWei", sans-serif;
 }
 
-.players {
-    flex-direction: row;
-    justify-content: center;
-    font-size: 12px;
-    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
-
-}
-
-.playerContainer{
-    width: 250px;
+.playerContainer {
+    position: relative;
+    width: 300px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
     margin: 0 auto;
+    border-radius: 50%; /* Makes the container circular */
     display: flex;
     justify-content: center;
     align-items: center;
-
-    .playerStatus{
-        justify-content: center;
-        align-items: center;
-    }
-
 }
 
 
 .avatarContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: "Caveat", cursive;
     font-size: 16px;
-
-    .avatarIcon{
-        float: left
-    }
-    .avatarStatus{
-        margin-top: 20px
-
-    }
 }
 
-.avatar1 div:hover{
-    transform: scale(1.1);
+
+
+/* Positioning avatars in a circle using transform */
+/* Initial positions for avatars on the circle */
+.avatar1 { transform: rotate(0deg) translate(130px) rotate(0deg); }
+.avatar2 { transform: rotate(51.43deg) translate(130px) rotate(-51.43deg); }
+.avatar3 { transform: rotate(102.86deg) translate(130px) rotate(-102.86deg); }
+.avatar4 { transform: rotate(154.29deg) translate(130px) rotate(-154.29deg); }
+.avatar5 { transform: rotate(205.71deg) translate(130px) rotate(-205.71deg); }
+.avatar6 { transform: rotate(257.14deg) translate(130px) rotate(-257.14deg); }
+.avatar7 { transform: rotate(308.57deg) translate(130px) rotate(-308.57deg); }
+
+.avatarStatus {
+    margin-top: 10px; /* Space below the avatar */
+    text-align: center; /* Center the text */
 }
 
-.avatar2 div:hover{
-    transform: scale(1.1);
+.avatarStatus {
+    margin-top: 5px; /* Adjust spacing below avatars */
 }
 
+/* Move to center on hover */
+.avatarContainer:hover {
+    transform: translate(-50%, -50%); /* Move to center */
+    z-index: 1; /* Bring to the front */
+}
+
+x
+.avatarContainer:hover .avatarIcon {
+    transition: transform 0.3s; /* Smooth transition */
+}
 
 @media only screen and (max-width: 480px) {
-    .players {
-        flex-direction: column;
-        justify-content: center;
-        font-size: 12px;
-        text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+    .personalMsg {
+        font-size: 10px;
     }
-
-
-
-    .avatarContainer {
-        font-family: "Caveat", cursive;
-        font-size: 16px;
     
-        .avatarIcon{
-            float: left
-        }
-        .avatarStatus{
-            margin-top: 20px
+    .playerContainer {
+        width: 200px; /* Adjust for smaller screens */
+        height: 200px; /* Adjust for smaller screens */
+    }
     
-        }
+    .avatarStatus {
+        font-size: 14px; /* Adjust for smaller screens */
     }
 }
-
-@keyframes circleMove { 
-    0% { 
-        transform: rotate(0deg)  
-            translateX(100px) rotate(0deg); 
-    } 
-
-    100% { 
-        transform: rotate(-360deg)  
-            translateX(100px) rotate(360deg); 
-    } 
-} 
-
-
-
-

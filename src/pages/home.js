@@ -71,7 +71,7 @@ const Home = () => {
 					<p>{ comments }</p>
 				</div>
 
-				<div className="playerContainer">
+				{/* <div className="playerContainer">
 					<div className="players" >
 						{/* <div className="avatar1">
 							<Stack direction="Column" spacing={10}>
@@ -106,7 +106,7 @@ const Home = () => {
 							</Stack>
 							
 						</div>
-						<br/> */}
+						<br/> }
 
 						<div className="avatar2">
 							<Stack direction="Column" spacing={10}>
@@ -165,15 +165,107 @@ const Home = () => {
 							</Stack>
 						</div>
 
+					
+				</div> */}
+
+				<div className="playerContainer">
+                <div className="avatarContainer avatar1">
+					<div className="avatarIcon">
+						<Avatar 
+							alt="Linyi" 
+							src={LinyiAvatar} 
+							sx={{ width: 50, height: 50 }} 
+							onClick={() => { sayHello('Linyi'); }} 
+							onMouseEnter={() => sayHello('Linyi')} 
+							onMouseLeave={() => sayHello()} 
+						/>
 					</div>
-					{/* <div className="playerStatus">
-						<div className="personalMsg">
-							<p>{ comments }</p>
-						</div>
-					</div> */}
-				</div>
+                    <div className='avatarStatus'>Linyi</div>
+                </div>
+                <div className="avatarContainer avatar2">
+				<div className="avatarIcon">
+						<Avatar 
+							alt="Jack" 
+							src={JackAvatar} 
+							sx={{ width: 50, height: 50 }} 
+							onClick={() => { sayHello('Jack'); }} 
+							onMouseEnter={() => sayHello('Jack')} 
+							onMouseLeave={() => sayHello()} 
+						/>
+                    <div className='avatarStatus'>Jack</div>
+					</div>
+                </div>
+                <div className="avatarContainer avatar3">
+					<div className="avatarIcon">
+						<Avatar 
+							alt="Elaine" 
+							src={ElaineAvatar} 
+							sx={{ width: 50, height: 50 }} 
+							onClick={() => { sayHello('Elaine'); }} 
+							onMouseEnter={() => sayHello('Elaine')} 
+							onMouseLeave={() => sayHello()} 
+						/>
+                    <div className='avatarStatus'>Elaine</div>
+					</div>
+                </div>
+                <div className="avatarContainer avatar4">
+				<div className="avatarIcon">
+						<Avatar 
+							alt="Joe Zhou" 
+							src={JoeZAvatar} 
+							sx={{ width: 50, height: 50 }} 
+							onClick={() => { sayHello('Joe Zhou'); }} 
+							onMouseEnter={() => sayHello('Joe Zhou')} 
+							onMouseLeave={() => sayHello()} 
+						/>
+						<div className='avatarStatus'>Joe Zhou</div>
+					</div>
+                </div>
+                <div className="avatarContainer avatar5">
+				<div className="avatarIcon">
+
+						<Avatar 
+							alt="Chloe" 
+							src={ChloeAvatar} 
+							sx={{ width: 50, height: 50 }} 
+							onClick={() => { sayHello('Chloe'); }} 
+							onMouseEnter={() => sayHello('Chloe')} 
+							onMouseLeave={() => sayHello()} 
+						/>
+                    <div className='avatarStatus'>Chloe</div>
+					</div>
+                </div>
+                <div className="avatarContainer avatar6">
+					<div className="avatarIcon">
+
+						<Avatar 
+							alt="TJin" 
+							src={TJinAvatar} 
+							sx={{ width: 50, height: 50 }} 
+							onClick={() => { sayHello('TJin'); }} 
+							onMouseEnter={() => sayHello('TJin')} 
+							onMouseLeave={() => sayHello()} 
+						/>
+						<div className='avatarStatus'>TJin</div>
+					</div>
+                </div>
+				<div className="avatarContainer avatar7">
+					<div className="avatarIcon">
+
+						<Avatar 
+							alt="Joe Sun" 
+							src={JoeSAvatar} 
+							sx={{ width: 50, height: 50 }} 
+							onClick={() => { sayHello('Joe Sun'); }} 
+							onMouseEnter={() => sayHello('Joe Sun')} 
+							onMouseLeave={() => sayHello()} 
+						/>
+						<div className='avatarStatus'>Joe Sun</div>
+					</div>
+                </div>
+            </div>
+        </div>
 		
-			</div>
 		);
 	};
 

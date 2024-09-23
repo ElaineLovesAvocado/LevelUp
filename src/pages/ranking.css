@@ -2,3 +2,18 @@
     font-size: 13px;
 }
 
+/* Apply font-family to the table and its contents */
+table {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+}
+
+/* You can also target other table elements specifically, like */
+th, td {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Additional styling for the entire container */
+.MuiTable-root {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+}

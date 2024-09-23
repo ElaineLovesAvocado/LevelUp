@@ -23,22 +23,32 @@ import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
 import './ranking.css'
 
-function createData(id, name, totalScore) {
+import JackAvatar from '../images/Jack.gif'; // Import your avatars
+import LinyiAvatar from '../images/Linyi.gif';
+import JoeZAvatar from '../images/JoeZ.gif';
+import ElaineAvatar from '../images/Elaine.gif';
+import JoeSAvatar from '../images/JoeS.gif';
+import ChloeAvatar from '../images/Season4/Chloe.gif';
+import TJinAvatar from '../images/Season4/TJin.gif';
+
+
+function createData(id, name, totalScore, avatar) {
   return {
     id,
     name,
-    totalScore
+    totalScore,
+    avatar
   };
 }
 
 const rows = [
-  createData(1, 'Jack', 172),
-  createData(2, 'Linyi', 175),
-  createData(3, 'Joe Zhou', 168),
-  createData(4, 'Elaine', 132),
-  createData(5, 'Joe Sun', 180),
-  createData(6, 'Chloe', 163),
-  createData(7, 'TJin', 131),
+  createData(1, 'Jack', 215, JackAvatar),
+  createData(2, 'Linyi', 223, LinyiAvatar),
+  createData(3, 'Joe Zhou', 203, JoeZAvatar),
+  createData(4, 'Elaine', 168, ElaineAvatar),
+  createData(5, 'Joe Sun', 220, JoeSAvatar),
+  createData(6, 'Chloe', 200, ChloeAvatar),
+  createData(7, 'TJin', 167, TJinAvatar),
 ];
 
 function descendingComparator(a, b, orderBy) {
@@ -107,6 +117,7 @@ function EnhancedTableHead(props) {
             inputProps={{
               'aria-label': 'select all people',
             }}
+            sx={{ cursor: 'pointer', fontFamily: '"ZCOOL XiaoWei", sans-serif' }}  
           />
         </TableCell>
         {headCells.map((headCell) => (
@@ -180,6 +191,8 @@ function EnhancedTableToolbar(props) {
             J,Q,K = 11,12,13;
             A = 14;
             A+(庄上) = 15;
+            大光(庄上)=16；
+            大光(庄下)=15；
         </div>
         </Typography>
       )}
@@ -307,7 +320,7 @@ export default function Score() {
                     tabIndex={-1}
                     key={row.id}
                     selected={isItemSelected}
-                    sx={{ cursor: 'pointer' }}
+                    sx={{ cursor: 'pointer', fontFamily: '"ZCOOL XiaoWei", sans-serif' }}  
                   >
                     <TableCell padding="checkbox">
                       <Checkbox
@@ -323,7 +336,13 @@ export default function Score() {
                       id={labelId}
                       scope="row"
                       padding="none"
+                      sx={{ cursor: 'pointer', fontFamily: '"ZCOOL XiaoWei", sans-serif' }}  
                     >
+                    <img 
+                        src={row.avatar} 
+                        alt={`${row.name}'s avatar`} 
+                        style={{ width: '40px', height: '40px', marginRight: '10px', borderRadius: '50%' }} // Style the avatar
+                    />
                       {row.name}
                     </TableCell>
                     <TableCell align="right">{row.totalScore}</TableCell>
