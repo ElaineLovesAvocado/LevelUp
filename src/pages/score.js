@@ -42,13 +42,13 @@ function createData(id, name, totalScore, avatar) {
 }
 
 const rows = [
-  createData(1, 'Jack', 215, JackAvatar),
-  createData(2, 'Linyi', 223, LinyiAvatar),
-  createData(3, 'Joe Zhou', 203, JoeZAvatar),
-  createData(4, 'Elaine', 168, ElaineAvatar),
-  createData(5, 'Joe Sun', 220, JoeSAvatar),
-  createData(6, 'Chloe', 200, ChloeAvatar),
-  createData(7, 'TJin', 167, TJinAvatar),
+  createData(1, 'Jack', 234, JackAvatar),
+  createData(2, 'Linyi', 245, LinyiAvatar),
+  createData(3, 'Joe Zhou', 223, JoeZAvatar),
+  createData(4, 'Elaine', 194, ElaineAvatar),
+  createData(5, 'Joe Sun', 244, JoeSAvatar),
+  createData(6, 'Chloe', 220, ChloeAvatar),
+  createData(7, 'TJin', 184, TJinAvatar),
 ];
 
 function descendingComparator(a, b, orderBy) {
@@ -193,6 +193,7 @@ function EnhancedTableToolbar(props) {
             A+(庄上) = 15;
             大光(庄上)=16；
             大光(庄下)=15；
+            Last update: 09/27/2024
         </div>
         </Typography>
       )}
