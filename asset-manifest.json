@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LevelUp/static/css/main.7aac3946.css",
-    "main.js": "/LevelUp/static/js/main.12167a42.js",
+    "main.js": "/LevelUp/static/js/main.13308aaf.js",
     "static/js/787.6a4e74f5.chunk.js": "/LevelUp/static/js/787.6a4e74f5.chunk.js",
     "static/media/chloeEvolved.gif": "/LevelUp/static/media/chloeEvolved.ca0e15aa24e539f7fc15.gif",
     "static/media/JackEvolved.gif": "/LevelUp/static/media/JackEvolved.5e7065f4d794c9da3e39.gif",
@@ -15,6 +15,7 @@
     "static/media/Linyi.gif": "/LevelUp/static/media/Linyi.e5445475551838651c7e.gif",
     "static/media/JoeS.gif": "/LevelUp/static/media/JoeS.c2c1d756c8cec88b0e05.gif",
     "static/media/JoeZ.gif": "/LevelUp/static/media/JoeZ.21de1516c8c3c7fec672.gif",
+    "static/media/Eldon.gif": "/LevelUp/static/media/Eldon.7d502e9879ae19bb4485.gif",
     "static/media/Chloe.gif": "/LevelUp/static/media/Chloe.1b549dc7c3406b7c6e14.gif",
     "static/media/Jack.gif": "/LevelUp/static/media/Jack.1f219db10a088b84330e.gif",
     "static/media/podium.png": "/LevelUp/static/media/podium.9799120042d25b0e2ace.png",
@@ -34,11 +35,11 @@
     "static/media/JoeZ2.gif": "/LevelUp/static/media/JoeZ2.0f6bd0145c129b42743f.gif",
     "index.html": "/LevelUp/index.html",
     "main.7aac3946.css.map": "/LevelUp/static/css/main.7aac3946.css.map",
-    "main.12167a42.js.map": "/LevelUp/static/js/main.12167a42.js.map",
+    "main.13308aaf.js.map": "/LevelUp/static/js/main.13308aaf.js.map",
     "787.6a4e74f5.chunk.js.map": "/LevelUp/static/js/787.6a4e74f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7aac3946.css",
-    "static/js/main.12167a42.js"
+    "static/js/main.13308aaf.js"
   ]
 }
